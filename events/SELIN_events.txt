@@ -1,0 +1,6355 @@
+# PROVINCIAL FLAG EVENTS #
+namespace = selinprovinceflags
+province_event = {
+	id = selinprovinceflags.1
+	hide_window = yes
+
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	immediate = {
+		#adoptionist flagging
+		if = {
+			limit = {
+				religion = adoptionist
+				NOT = { has_province_modifier = province_adoptionist }
+			}
+			add_province_modifier = {
+				name = province_adoptionist
+				duration = -1
+			}
+		}
+		#adoptionist cleansing
+		if = {
+			limit = {
+				NOT = { religion = adoptionist }
+				has_province_modifier = province_adoptionist
+			}
+			remove_province_modifier = province_adoptionist
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#aglibol flagging
+		if = {
+			limit = {
+				religion = aglibol
+				NOT = { has_province_modifier = province_aglibol }
+			}
+			add_province_modifier = {
+				name = province_aglibol
+				duration = -1
+			}
+		}
+		#aglibol cleansing
+		if = {
+			limit = {
+				NOT = { religion = aglibol }
+				has_province_modifier = province_aglibol
+			}
+			remove_province_modifier = province_aglibol
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#alexandros flagging
+		if = {
+			limit = {
+				religion = alexandros
+				NOT = { has_province_modifier = province_alexandros }
+			}
+			add_province_modifier = {
+				name = province_alexandros
+				duration = -1
+			}
+		}
+		#alexandros cleansing
+		if = {
+			limit = {
+				NOT = { religion = alexandros }
+				has_province_modifier = province_alexandros
+			}
+			remove_province_modifier = province_alexandros
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#allat flagging
+		if = {
+			limit = {
+				religion = allat
+				NOT = { has_province_modifier = province_allat }
+			}
+			add_province_modifier = {
+				name = province_allat
+				duration = -1
+			}
+		}
+		#allat cleansing
+		if = {
+			limit = {
+				NOT = { religion = allat }
+				has_province_modifier = province_allat
+			}
+			remove_province_modifier = province_allat
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#allfather flagging
+		if = {
+			limit = {
+				religion = allfather
+				NOT = { has_province_modifier = province_allfather }
+			}
+			add_province_modifier = {
+				name = province_allfather
+				duration = -1
+			}
+		}
+		#allfather cleansing
+		if = {
+			limit = {
+				NOT = { religion = allfather }
+				has_province_modifier = province_allfather
+			}
+			remove_province_modifier = province_allfather
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#almaqah flagging
+		if = {
+			limit = {
+				religion = almaqah
+				NOT = { has_province_modifier = province_almaqah }
+			}
+			add_province_modifier = {
+				name = province_almaqah
+				duration = -1
+			}
+		}
+		#almaqah cleansing
+		if = {
+			limit = {
+				NOT = { religion = almaqah }
+				has_province_modifier = province_almaqah
+			}
+			remove_province_modifier = province_almaqah
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#amanai flagging
+		if = {
+			limit = {
+				religion = amanai
+				NOT = { has_province_modifier = province_amanai }
+			}
+			add_province_modifier = {
+				name = province_amanai
+				duration = -1
+			}
+		}
+		#amanai cleansing
+		if = {
+			limit = {
+				NOT = { religion = amanai }
+				has_province_modifier = province_amanai
+			}
+			remove_province_modifier = province_amanai
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#amun flagging
+		if = {
+			limit = {
+				religion = amun
+				NOT = { has_province_modifier = province_amun }
+			}
+			add_province_modifier = {
+				name = province_amun
+				duration = -1
+			}
+		}
+		#amun cleansing
+		if = {
+			limit = {
+				NOT = { religion = amun }
+				has_province_modifier = province_amun
+			}
+			remove_province_modifier = province_amun
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#anansi flagging
+		if = {
+			limit = {
+				religion = anansi
+				NOT = { has_province_modifier = province_anansi }
+			}
+			add_province_modifier = {
+				name = province_anansi
+				duration = -1
+			}
+		}
+		#anansi cleansing
+		if = {
+			limit = {
+				NOT = { religion = anansi }
+				has_province_modifier = province_anansi
+			}
+			remove_province_modifier = province_anansi
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#antinomian flagging
+		if = {
+			limit = {
+				religion = antinomian
+				NOT = { has_province_modifier = province_antinomian }
+			}
+			add_province_modifier = {
+				name = province_antinomian
+				duration = -1
+			}
+		}
+		#antinomian cleansing
+		if = {
+			limit = {
+				NOT = { religion = antinomian }
+				has_province_modifier = province_antinomian
+			}
+			remove_province_modifier = province_antinomian
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#apollinarist flagging
+		if = {
+			limit = {
+				religion = apollinarist
+				NOT = { has_province_modifier = province_apollinarist }
+			}
+			add_province_modifier = {
+				name = province_apollinarist
+				duration = -1
+			}
+		}
+		#apollinarist cleansing
+		if = {
+			limit = {
+				NOT = { religion = apollinarist }
+				has_province_modifier = province_apollinarist
+			}
+			remove_province_modifier = province_apollinarist
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#arian flagging
+		if = {
+			limit = {
+				religion = arian
+				NOT = { has_province_modifier = province_arian }
+			}
+			add_province_modifier = {
+				name = province_arian
+				duration = -1
+			}
+		}
+		#arian cleansing
+		if = {
+			limit = {
+				NOT = { religion = arian }
+				has_province_modifier = province_arian
+			}
+			remove_province_modifier = province_arian
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#ashari flagging
+		if = {
+			limit = {
+				religion = ashari
+				NOT = { has_province_modifier = province_ashari }
+			}
+			add_province_modifier = {
+				name = province_ashari
+				duration = -1
+			}
+		}
+		#ashari cleansing
+		if = {
+			limit = {
+				NOT = { religion = ashari }
+				has_province_modifier = province_ashari
+			}
+			remove_province_modifier = province_ashari
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#aten flagging
+		if = {
+			limit = {
+				religion = aten
+				NOT = { has_province_modifier = province_aten }
+			}
+			add_province_modifier = {
+				name = province_aten
+				duration = -1
+			}
+		}
+		#aten cleansing
+		if = {
+			limit = {
+				NOT = { religion = aten }
+				has_province_modifier = province_aten
+			}
+			remove_province_modifier = province_aten
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#athari flagging
+		if = {
+			limit = {
+				religion = athari
+				NOT = { has_province_modifier = province_athari }
+			}
+			add_province_modifier = {
+				name = province_athari
+				duration = -1
+			}
+		}
+		#athari cleansing
+		if = {
+			limit = {
+				NOT = { religion = athari }
+				has_province_modifier = province_athari
+			}
+			remove_province_modifier = province_athari
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#attar flagging
+		if = {
+			limit = {
+				religion = attar
+				NOT = { has_province_modifier = province_attar }
+			}
+			add_province_modifier = {
+				name = province_attar
+				duration = -1
+			}
+		}
+		#attar cleansing
+		if = {
+			limit = {
+				NOT = { religion = attar }
+				has_province_modifier = province_attar
+			}
+			remove_province_modifier = province_attar
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#audianist flagging
+		if = {
+			limit = {
+				religion = audianist
+				NOT = { has_province_modifier = province_audianist }
+			}
+			add_province_modifier = {
+				name = province_audianist
+				duration = -1
+			}
+		}
+		#audianist cleansing
+		if = {
+			limit = {
+				NOT = { religion = audianist }
+				has_province_modifier = province_audianist
+			}
+			remove_province_modifier = province_audianist
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#aztec flagging
+		if = {
+			limit = {
+				religion = aztec
+				NOT = { has_province_modifier = province_aztec }
+			}
+			add_province_modifier = {
+				name = province_aztec
+				duration = -1
+			}
+		}
+		#aztec cleansing
+		if = {
+			limit = {
+				NOT = { religion = aztec }
+				has_province_modifier = province_aztec
+			}
+			remove_province_modifier = province_aztec
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#batembuzi flagging
+		if = {
+			limit = {
+				religion = batembuzi
+				NOT = { has_province_modifier = province_batembuzi }
+			}
+			add_province_modifier = {
+				name = province_batembuzi
+				duration = -1
+			}
+		}
+		#batembuzi cleansing
+		if = {
+			limit = {
+				NOT = { religion = batembuzi }
+				has_province_modifier = province_batembuzi
+			}
+			remove_province_modifier = province_batembuzi
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#beelshamen flagging
+		if = {
+			limit = {
+				religion = beelshamen
+				NOT = { has_province_modifier = province_beelshamen }
+			}
+			add_province_modifier = {
+				name = province_beelshamen
+				duration = -1
+			}
+		}
+		#beelshamen cleansing
+		if = {
+			limit = {
+				NOT = { religion = beelshamen }
+				has_province_modifier = province_beelshamen
+			}
+			remove_province_modifier = province_beelshamen
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#berber_pagan flagging
+		if = {
+			limit = {
+				religion = berber_pagan
+				NOT = { has_province_modifier = province_berber_pagan }
+			}
+			add_province_modifier = {
+				name = province_berber_pagan
+				duration = -1
+			}
+		}
+		#berber_pagan cleansing
+		if = {
+			limit = {
+				NOT = { religion = berber_pagan }
+				has_province_modifier = province_berber_pagan
+			}
+			remove_province_modifier = province_berber_pagan
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#bogomilist flagging
+		if = {
+			limit = {
+				religion = bogomilist
+				NOT = { has_province_modifier = province_bogomilist }
+			}
+			add_province_modifier = {
+				name = province_bogomilist
+				duration = -1
+			}
+		}
+		#bogomilist cleansing
+		if = {
+			limit = {
+				NOT = { religion = bogomilist }
+				has_province_modifier = province_bogomilist
+			}
+			remove_province_modifier = province_bogomilist
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#bon flagging
+		if = {
+			limit = {
+				religion = bon
+				NOT = { has_province_modifier = province_bon }
+			}
+			add_province_modifier = {
+				name = province_bon
+				duration = -1
+			}
+		}
+		#bon cleansing
+		if = {
+			limit = {
+				NOT = { religion = bon }
+				has_province_modifier = province_bon
+			}
+			remove_province_modifier = province_bon
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#bud_bahusrutiya flagging
+		if = {
+			limit = {
+				religion = bud_bahusrutiya
+				NOT = { has_province_modifier = province_bud_bahusrutiya }
+			}
+			add_province_modifier = {
+				name = province_bud_bahusrutiya
+				duration = -1
+			}
+		}
+		#bud_bahusrutiya cleansing
+		if = {
+			limit = {
+				NOT = { religion = bud_bahusrutiya }
+				has_province_modifier = province_bud_bahusrutiya
+			}
+			remove_province_modifier = province_bud_bahusrutiya
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#bud_mahayana flagging
+		if = {
+			limit = {
+				religion = bud_mahayana
+				NOT = { has_province_modifier = province_bud_mahayana }
+			}
+			add_province_modifier = {
+				name = province_bud_mahayana
+				duration = -1
+			}
+		}
+		#bud_mahayana cleansing
+		if = {
+			limit = {
+				NOT = { religion = bud_mahayana }
+				has_province_modifier = province_bud_mahayana
+			}
+			remove_province_modifier = province_bud_mahayana
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#bud_pratyeka flagging
+		if = {
+			limit = {
+				religion = bud_pratyeka
+				NOT = { has_province_modifier = province_bud_pratyeka }
+			}
+			add_province_modifier = {
+				name = province_bud_pratyeka
+				duration = -1
+			}
+		}
+		#bud_pratyeka cleansing
+		if = {
+			limit = {
+				NOT = { religion = bud_pratyeka }
+				has_province_modifier = province_bud_pratyeka
+			}
+			remove_province_modifier = province_bud_pratyeka
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#bud_pureland flagging
+		if = {
+			limit = {
+				religion = bud_pureland
+				NOT = { has_province_modifier = province_bud_pureland }
+			}
+			add_province_modifier = {
+				name = province_bud_pureland
+				duration = -1
+			}
+		}
+		#bud_pureland cleansing
+		if = {
+			limit = {
+				NOT = { religion = bud_pureland }
+				has_province_modifier = province_bud_pureland
+			}
+			remove_province_modifier = province_bud_pureland
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#bud_sthaviravada flagging
+		if = {
+			limit = {
+				religion = bud_sthaviravada
+				NOT = { has_province_modifier = province_bud_sthaviravada }
+			}
+			add_province_modifier = {
+				name = province_bud_sthaviravada
+				duration = -1
+			}
+		}
+		#bud_sthaviravada cleansing
+		if = {
+			limit = {
+				NOT = { religion = bud_sthaviravada }
+				has_province_modifier = province_bud_sthaviravada
+			}
+			remove_province_modifier = province_bud_sthaviravada
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#bud_vajrayana flagging
+		if = {
+			limit = {
+				religion = bud_vajrayana
+				NOT = { has_province_modifier = province_bud_vajrayana }
+			}
+			add_province_modifier = {
+				name = province_bud_vajrayana
+				duration = -1
+			}
+		}
+		#bud_vajrayana cleansing
+		if = {
+			limit = {
+				NOT = { religion = bud_vajrayana }
+				has_province_modifier = province_bud_vajrayana
+			}
+			remove_province_modifier = province_bud_vajrayana
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#bud_zen flagging
+		if = {
+			limit = {
+				religion = bud_zen
+				NOT = { has_province_modifier = province_bud_zen }
+			}
+			add_province_modifier = {
+				name = province_bud_zen
+				duration = -1
+			}
+		}
+		#bud_zen cleansing
+		if = {
+			limit = {
+				NOT = { religion = bud_zen }
+				has_province_modifier = province_bud_zen
+			}
+			remove_province_modifier = province_bud_zen
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#bud_zor flagging
+		if = {
+			limit = {
+				religion = bud_zor
+				NOT = { has_province_modifier = province_bud_zor }
+			}
+			add_province_modifier = {
+				name = province_bud_zor
+				duration = -1
+			}
+		}
+		#bud_zor cleansing
+		if = {
+			limit = {
+				NOT = { religion = bud_zor }
+				has_province_modifier = province_bud_zor
+			}
+			remove_province_modifier = province_bud_zor
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#cathar flagging
+		if = {
+			limit = {
+				religion = cathar
+				NOT = { has_province_modifier = province_cathar }
+			}
+			add_province_modifier = {
+				name = province_cathar
+				duration = -1
+			}
+		}
+		#cathar cleansing
+		if = {
+			limit = {
+				NOT = { religion = cathar }
+				has_province_modifier = province_cathar
+			}
+			remove_province_modifier = province_cathar
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#catholic flagging
+		if = {
+			limit = {
+				religion = catholic
+				NOT = { has_province_modifier = province_catholic }
+			}
+			add_province_modifier = {
+				name = province_catholic
+				duration = -1
+			}
+		}
+		#catholic cleansing
+		if = {
+			limit = {
+				NOT = { religion = catholic }
+				has_province_modifier = province_catholic
+			}
+			remove_province_modifier = province_catholic
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#celtic_christ flagging
+		if = {
+			limit = {
+				religion = celtic_christ
+				NOT = { has_province_modifier = province_celtic_christ }
+			}
+			add_province_modifier = {
+				name = province_celtic_christ
+				duration = -1
+			}
+		}
+		#celtic_christ cleansing
+		if = {
+			limit = {
+				NOT = { religion = celtic_christ }
+				has_province_modifier = province_celtic_christ
+			}
+			remove_province_modifier = province_celtic_christ
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#celtic_pagan flagging
+		if = {
+			limit = {
+				religion = celtic_pagan
+				NOT = { has_province_modifier = province_celtic_pagan }
+			}
+			add_province_modifier = {
+				name = province_celtic_pagan
+				duration = -1
+			}
+		}
+		#celtic_pagan cleansing
+		if = {
+			limit = {
+				NOT = { religion = celtic_pagan }
+				has_province_modifier = province_celtic_pagan
+			}
+			remove_province_modifier = province_celtic_pagan
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#chumbylat flagging
+		if = {
+			limit = {
+				religion = chumbylat
+				NOT = { has_province_modifier = province_chumbylat }
+			}
+			add_province_modifier = {
+				name = province_chumbylat
+				duration = -1
+			}
+		}
+		#chumbylat cleansing
+		if = {
+			limit = {
+				NOT = { religion = chumbylat }
+				has_province_modifier = province_chumbylat
+			}
+			remove_province_modifier = province_chumbylat
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#confucian flagging
+		if = {
+			limit = {
+				religion = confucian
+				NOT = { has_province_modifier = province_confucian }
+			}
+			add_province_modifier = {
+				name = province_confucian
+				duration = -1
+			}
+		}
+		#confucian cleansing
+		if = {
+			limit = {
+				NOT = { religion = confucian }
+				has_province_modifier = province_confucian
+			}
+			remove_province_modifier = province_confucian
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#cybele flagging
+		if = {
+			limit = {
+				religion = cybele
+				NOT = { has_province_modifier = province_cybele }
+			}
+			add_province_modifier = {
+				name = province_cybele
+				duration = -1
+			}
+		}
+		#cybele cleansing
+		if = {
+			limit = {
+				NOT = { religion = cybele }
+				has_province_modifier = province_cybele
+			}
+			remove_province_modifier = province_cybele
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#dazhbog flagging
+		if = {
+			limit = {
+				religion = dazhbog
+				NOT = { has_province_modifier = province_dazhbog }
+			}
+			add_province_modifier = {
+				name = province_dazhbog
+				duration = -1
+			}
+		}
+		#dazhbog cleansing
+		if = {
+			limit = {
+				NOT = { religion = dazhbog }
+				has_province_modifier = province_dazhbog
+			}
+			remove_province_modifier = province_dazhbog
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#dievas flagging
+		if = {
+			limit = {
+				religion = dievas
+				NOT = { has_province_modifier = province_dievas }
+			}
+			add_province_modifier = {
+				name = province_dievas
+				duration = -1
+			}
+		}
+		#dievas cleansing
+		if = {
+			limit = {
+				NOT = { religion = dievas }
+				has_province_modifier = province_dievas
+			}
+			remove_province_modifier = province_dievas
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#dionysos flagging
+		if = {
+			limit = {
+				religion = dionysos
+				NOT = { has_province_modifier = province_dionysos }
+			}
+			add_province_modifier = {
+				name = province_dionysos
+				duration = -1
+			}
+		}
+		#dionysos cleansing
+		if = {
+			limit = {
+				NOT = { religion = dionysos }
+				has_province_modifier = province_dionysos
+			}
+			remove_province_modifier = province_dionysos
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#docetist flagging
+		if = {
+			limit = {
+				religion = docetist
+				NOT = { has_province_modifier = province_docetist }
+			}
+			add_province_modifier = {
+				name = province_docetist
+				duration = -1
+			}
+		}
+		#docetist cleansing
+		if = {
+			limit = {
+				NOT = { religion = docetist }
+				has_province_modifier = province_docetist
+			}
+			remove_province_modifier = province_docetist
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#donatist flagging
+		if = {
+			limit = {
+				religion = donatist
+				NOT = { has_province_modifier = province_donatist }
+			}
+			add_province_modifier = {
+				name = province_donatist
+				duration = -1
+			}
+		}
+		#donatist cleansing
+		if = {
+			limit = {
+				NOT = { religion = donatist }
+				has_province_modifier = province_donatist
+			}
+			remove_province_modifier = province_donatist
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#druze flagging
+		if = {
+			limit = {
+				religion = druze
+				NOT = { has_province_modifier = province_druze }
+			}
+			add_province_modifier = {
+				name = province_druze
+				duration = -1
+			}
+		}
+		#druze cleansing
+		if = {
+			limit = {
+				NOT = { religion = druze }
+				has_province_modifier = province_druze
+			}
+			remove_province_modifier = province_druze
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#endovellico flagging
+		if = {
+			limit = {
+				religion = endovellico
+				NOT = { has_province_modifier = province_endovellico }
+			}
+			add_province_modifier = {
+				name = province_endovellico
+				duration = -1
+			}
+		}
+		#endovellico cleansing
+		if = {
+			limit = {
+				NOT = { religion = endovellico }
+				has_province_modifier = province_endovellico
+			}
+			remove_province_modifier = province_endovellico
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#erlik flagging
+		if = {
+			limit = {
+				religion = erlik
+				NOT = { has_province_modifier = province_erlik }
+			}
+			add_province_modifier = {
+				name = province_erlik
+				duration = -1
+			}
+		}
+		#erlik cleansing
+		if = {
+			limit = {
+				NOT = { religion = erlik }
+				has_province_modifier = province_erlik
+			}
+			remove_province_modifier = province_erlik
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#finnish_pagan flagging
+		if = {
+			limit = {
+				religion = finnish_pagan
+				NOT = { has_province_modifier = province_finnish_pagan }
+			}
+			add_province_modifier = {
+				name = province_finnish_pagan
+				duration = -1
+			}
+		}
+		#finnish_pagan cleansing
+		if = {
+			limit = {
+				NOT = { religion = finnish_pagan }
+				has_province_modifier = province_finnish_pagan
+			}
+			remove_province_modifier = province_finnish_pagan
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#fraticelli flagging
+		if = {
+			limit = {
+				religion = fraticelli
+				NOT = { has_province_modifier = province_fraticelli }
+			}
+			add_province_modifier = {
+				name = province_fraticelli
+				duration = -1
+			}
+		}
+		#fraticelli cleansing
+		if = {
+			limit = {
+				NOT = { religion = fraticelli }
+				has_province_modifier = province_fraticelli
+			}
+			remove_province_modifier = province_fraticelli
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#german_pagan flagging
+		if = {
+			limit = {
+				religion = german_pagan
+				NOT = { has_province_modifier = province_german_pagan }
+			}
+			add_province_modifier = {
+				name = province_german_pagan
+				duration = -1
+			}
+		}
+		#german_pagan cleansing
+		if = {
+			limit = {
+				NOT = { religion = german_pagan }
+				has_province_modifier = province_german_pagan
+			}
+			remove_province_modifier = province_german_pagan
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#ghazi_islam flagging
+		if = {
+			limit = {
+				religion = ghazi_islam
+				NOT = { has_province_modifier = province_ghazi_islam }
+			}
+			add_province_modifier = {
+				name = province_ghazi_islam
+				duration = -1
+			}
+		}
+		#ghazi_islam cleansing
+		if = {
+			limit = {
+				NOT = { religion = ghazi_islam }
+				has_province_modifier = province_ghazi_islam
+			}
+			remove_province_modifier = province_ghazi_islam
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#graeco_roman flagging
+		if = {
+			limit = {
+				religion = graeco_roman
+				NOT = { has_province_modifier = province_graeco_roman }
+			}
+			add_province_modifier = {
+				name = province_graeco_roman
+				duration = -1
+			}
+		}
+		#graeco_roman cleansing
+		if = {
+			limit = {
+				NOT = { religion = graeco_roman }
+				has_province_modifier = province_graeco_roman
+			}
+			remove_province_modifier = province_graeco_roman
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#gurzil flagging
+		if = {
+			limit = {
+				religion = gurzil
+				NOT = { has_province_modifier = province_gurzil }
+			}
+			add_province_modifier = {
+				name = province_gurzil
+				duration = -1
+			}
+		}
+		#gurzil cleansing
+		if = {
+			limit = {
+				NOT = { religion = gurzil }
+				has_province_modifier = province_gurzil
+			}
+			remove_province_modifier = province_gurzil
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#hadad flagging
+		if = {
+			limit = {
+				religion = hadad
+				NOT = { has_province_modifier = province_hadad }
+			}
+			add_province_modifier = {
+				name = province_hadad
+				duration = -1
+			}
+		}
+		#hadad cleansing
+		if = {
+			limit = {
+				NOT = { religion = hadad }
+				has_province_modifier = province_hadad
+			}
+			remove_province_modifier = province_hadad
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#haruri flagging
+		if = {
+			limit = {
+				religion = haruri
+				NOT = { has_province_modifier = province_haruri }
+			}
+			add_province_modifier = {
+				name = province_haruri
+				duration = -1
+			}
+		}
+		#haruri cleansing
+		if = {
+			limit = {
+				NOT = { religion = haruri }
+				has_province_modifier = province_haruri
+			}
+			remove_province_modifier = province_haruri
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#hindu flagging
+		if = {
+			limit = {
+				religion = hindu
+				NOT = { has_province_modifier = province_hindu }
+			}
+			add_province_modifier = {
+				name = province_hindu
+				duration = -1
+			}
+		}
+		#hindu cleansing
+		if = {
+			limit = {
+				NOT = { religion = hindu }
+				has_province_modifier = province_hindu
+			}
+			remove_province_modifier = province_hindu
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#horus_re flagging
+		if = {
+			limit = {
+				religion = horus_re
+				NOT = { has_province_modifier = province_horus_re }
+			}
+			add_province_modifier = {
+				name = province_horus_re
+				duration = -1
+			}
+		}
+		#horus_re cleansing
+		if = {
+			limit = {
+				NOT = { religion = horus_re }
+				has_province_modifier = province_horus_re
+			}
+			remove_province_modifier = province_horus_re
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#hubal flagging
+		if = {
+			limit = {
+				religion = hubal
+				NOT = { has_province_modifier = province_hubal }
+			}
+			add_province_modifier = {
+				name = province_hubal
+				duration = -1
+			}
+		}
+		#hubal cleansing
+		if = {
+			limit = {
+				NOT = { religion = hubal }
+				has_province_modifier = province_hubal
+			}
+			remove_province_modifier = province_hubal
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#hurufi flagging
+		if = {
+			limit = {
+				religion = hurufi
+				NOT = { has_province_modifier = province_hurufi }
+			}
+			add_province_modifier = {
+				name = province_hurufi
+				duration = -1
+			}
+		}
+		#hurufi cleansing
+		if = {
+			limit = {
+				NOT = { religion = hurufi }
+				has_province_modifier = province_hurufi
+			}
+			remove_province_modifier = province_hurufi
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#ibadi flagging
+		if = {
+			limit = {
+				religion = ibadi
+				NOT = { has_province_modifier = province_ibadi }
+			}
+			add_province_modifier = {
+				name = province_ibadi
+				duration = -1
+			}
+		}
+		#ibadi cleansing
+		if = {
+			limit = {
+				NOT = { religion = ibadi }
+				has_province_modifier = province_ibadi
+			}
+			remove_province_modifier = province_ibadi
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#iconoclast flagging
+		if = {
+			limit = {
+				religion = iconoclast
+				NOT = { has_province_modifier = province_iconoclast }
+			}
+			add_province_modifier = {
+				name = province_iconoclast
+				duration = -1
+			}
+		}
+		#iconoclast cleansing
+		if = {
+			limit = {
+				NOT = { religion = iconoclast }
+				has_province_modifier = province_iconoclast
+			}
+			remove_province_modifier = province_iconoclast
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#illuyanka flagging
+		if = {
+			limit = {
+				religion = illuyanka
+				NOT = { has_province_modifier = province_illuyanka }
+			}
+			add_province_modifier = {
+				name = province_illuyanka
+				duration = -1
+			}
+		}
+		#illuyanka cleansing
+		if = {
+			limit = {
+				NOT = { religion = illuyanka }
+				has_province_modifier = province_illuyanka
+			}
+			remove_province_modifier = province_illuyanka
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#ilm_islam flagging
+		if = {
+			limit = {
+				religion = ilm_islam
+				NOT = { has_province_modifier = province_ilm_islam }
+			}
+			add_province_modifier = {
+				name = province_ilm_islam
+				duration = -1
+			}
+		}
+		#ilm_islam cleansing
+		if = {
+			limit = {
+				NOT = { religion = ilm_islam }
+				has_province_modifier = province_ilm_islam
+			}
+			remove_province_modifier = province_ilm_islam
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#ilmatar flagging
+		if = {
+			limit = {
+				religion = ilmatar
+				NOT = { has_province_modifier = province_ilmatar }
+			}
+			add_province_modifier = {
+				name = province_ilmatar
+				duration = -1
+			}
+		}
+		#ilmatar cleansing
+		if = {
+			limit = {
+				NOT = { religion = ilmatar }
+				has_province_modifier = province_ilmatar
+			}
+			remove_province_modifier = province_ilmatar
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#imana flagging
+		if = {
+			limit = {
+				religion = imana
+				NOT = { has_province_modifier = province_imana }
+			}
+			add_province_modifier = {
+				name = province_imana
+				duration = -1
+			}
+		}
+		#imana cleansing
+		if = {
+			limit = {
+				NOT = { religion = imana }
+				has_province_modifier = province_imana
+			}
+			remove_province_modifier = province_imana
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#indoh_bud flagging
+		if = {
+			limit = {
+				religion = indoh_bud
+				NOT = { has_province_modifier = province_indoh_bud }
+			}
+			add_province_modifier = {
+				name = province_indoh_bud
+				duration = -1
+			}
+		}
+		#indoh_bud cleansing
+		if = {
+			limit = {
+				NOT = { religion = indoh_bud }
+				has_province_modifier = province_indoh_bud
+			}
+			remove_province_modifier = province_indoh_bud
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#indoh_confucian flagging
+		if = {
+			limit = {
+				religion = indoh_confucian
+				NOT = { has_province_modifier = province_indoh_confucian }
+			}
+			add_province_modifier = {
+				name = province_indoh_confucian
+				duration = -1
+			}
+		}
+		#indoh_confucian cleansing
+		if = {
+			limit = {
+				NOT = { religion = indoh_confucian }
+				has_province_modifier = province_indoh_confucian
+			}
+			remove_province_modifier = province_indoh_confucian
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#indoh_hindu flagging
+		if = {
+			limit = {
+				religion = indoh_hindu
+				NOT = { has_province_modifier = province_indoh_hindu }
+			}
+			add_province_modifier = {
+				name = province_indoh_hindu
+				duration = -1
+			}
+		}
+		#indoh_hindu cleansing
+		if = {
+			limit = {
+				NOT = { religion = indoh_hindu }
+				has_province_modifier = province_indoh_hindu
+			}
+			remove_province_modifier = province_indoh_hindu
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#indoh_zor flagging
+		if = {
+			limit = {
+				religion = indoh_zor
+				NOT = { has_province_modifier = province_indoh_zor }
+			}
+			add_province_modifier = {
+				name = province_indoh_zor
+				duration = -1
+			}
+		}
+		#indoh_zor cleansing
+		if = {
+			limit = {
+				NOT = { religion = indoh_zor }
+				has_province_modifier = province_indoh_zor
+			}
+			remove_province_modifier = province_indoh_zor
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#indohelen flagging
+		if = {
+			limit = {
+				religion = indohelen
+				NOT = { has_province_modifier = province_indohelen }
+			}
+			add_province_modifier = {
+				name = province_indohelen
+				duration = -1
+			}
+		}
+		#indohelen cleansing
+		if = {
+			limit = {
+				NOT = { religion = indohelen }
+				has_province_modifier = province_indohelen
+			}
+			remove_province_modifier = province_indohelen
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#inuit_pagan flagging
+		if = {
+			limit = {
+				religion = inuit_pagan
+				NOT = { has_province_modifier = province_inuit_pagan }
+			}
+			add_province_modifier = {
+				name = province_inuit_pagan
+				duration = -1
+			}
+		}
+		#inuit_pagan cleansing
+		if = {
+			limit = {
+				NOT = { religion = inuit_pagan }
+				has_province_modifier = province_inuit_pagan
+			}
+			remove_province_modifier = province_inuit_pagan
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#irminsul flagging
+		if = {
+			limit = {
+				religion = irminsul
+				NOT = { has_province_modifier = province_irminsul }
+			}
+			add_province_modifier = {
+				name = province_irminsul
+				duration = -1
+			}
+		}
+		#irminsul cleansing
+		if = {
+			limit = {
+				NOT = { religion = irminsul }
+				has_province_modifier = province_irminsul
+			}
+			remove_province_modifier = province_irminsul
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#isis flagging
+		if = {
+			limit = {
+				religion = isis
+				NOT = { has_province_modifier = province_isis }
+			}
+			add_province_modifier = {
+				name = province_isis
+				duration = -1
+			}
+		}
+		#isis cleansing
+		if = {
+			limit = {
+				NOT = { religion = isis }
+				has_province_modifier = province_isis
+			}
+			remove_province_modifier = province_isis
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#jain flagging
+		if = {
+			limit = {
+				religion = jain
+				NOT = { has_province_modifier = province_jain }
+			}
+			add_province_modifier = {
+				name = province_jain
+				duration = -1
+			}
+		}
+		#jain cleansing
+		if = {
+			limit = {
+				NOT = { religion = jain }
+				has_province_modifier = province_jain
+			}
+			remove_province_modifier = province_jain
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#jud_ark flagging
+		if = {
+			limit = {
+				religion = jud_ark
+				NOT = { has_province_modifier = province_jud_ark }
+			}
+			add_province_modifier = {
+				name = province_jud_ark
+				duration = -1
+			}
+		}
+		#jud_ark cleansing
+		if = {
+			limit = {
+				NOT = { religion = jud_ark }
+				has_province_modifier = province_jud_ark
+			}
+			remove_province_modifier = province_jud_ark
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#jud_sabaoth flagging
+		if = {
+			limit = {
+				religion = jud_sabaoth
+				NOT = { has_province_modifier = province_jud_sabaoth }
+			}
+			add_province_modifier = {
+				name = province_jud_sabaoth
+				duration = -1
+			}
+		}
+		#jud_sabaoth cleansing
+		if = {
+			limit = {
+				NOT = { religion = jud_sabaoth }
+				has_province_modifier = province_jud_sabaoth
+			}
+			remove_province_modifier = province_jud_sabaoth
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#jud_zion flagging
+		if = {
+			limit = {
+				religion = jud_zion
+				NOT = { has_province_modifier = province_jud_zion }
+			}
+			add_province_modifier = {
+				name = province_jud_zion
+				duration = -1
+			}
+		}
+		#jud_zion cleansing
+		if = {
+			limit = {
+				NOT = { religion = jud_zion }
+				has_province_modifier = province_jud_zion
+			}
+			remove_province_modifier = province_jud_zion
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#judaism flagging
+		if = {
+			limit = {
+				religion = judaism
+				NOT = { has_province_modifier = province_judaism }
+			}
+			add_province_modifier = {
+				name = province_judaism
+				duration = -1
+			}
+		}
+		#judaism cleansing
+		if = {
+			limit = {
+				NOT = { religion = judaism }
+				has_province_modifier = province_judaism
+			}
+			remove_province_modifier = province_judaism
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#jumala flagging
+		if = {
+			limit = {
+				religion = jumala
+				NOT = { has_province_modifier = province_jumala }
+			}
+			add_province_modifier = {
+				name = province_jumala
+				duration = -1
+			}
+		}
+		#jumala cleansing
+		if = {
+			limit = {
+				NOT = { religion = jumala }
+				has_province_modifier = province_jumala
+			}
+			remove_province_modifier = province_jumala
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#jupiter flagging
+		if = {
+			limit = {
+				religion = jupiter
+				NOT = { has_province_modifier = province_jupiter }
+			}
+			add_province_modifier = {
+				name = province_jupiter
+				duration = -1
+			}
+		}
+		#jupiter cleansing
+		if = {
+			limit = {
+				NOT = { religion = jupiter }
+				has_province_modifier = province_jupiter
+			}
+			remove_province_modifier = province_jupiter
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#kharijite flagging
+		if = {
+			limit = {
+				religion = kharijite
+				NOT = { has_province_modifier = province_kharijite }
+			}
+			add_province_modifier = {
+				name = province_kharijite
+				duration = -1
+			}
+		}
+		#kharijite cleansing
+		if = {
+			limit = {
+				NOT = { religion = kharijite }
+				has_province_modifier = province_kharijite
+			}
+			remove_province_modifier = province_kharijite
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#kintu flagging
+		if = {
+			limit = {
+				religion = kintu
+				NOT = { has_province_modifier = province_kintu }
+			}
+			add_province_modifier = {
+				name = province_kintu
+				duration = -1
+			}
+		}
+		#kintu cleansing
+		if = {
+			limit = {
+				NOT = { religion = kintu }
+				has_province_modifier = province_kintu
+			}
+			remove_province_modifier = province_kintu
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#kothar flagging
+		if = {
+			limit = {
+				religion = kothar
+				NOT = { has_province_modifier = province_kothar }
+			}
+			add_province_modifier = {
+				name = province_kothar
+				duration = -1
+			}
+		}
+		#kothar cleansing
+		if = {
+			limit = {
+				NOT = { religion = kothar }
+				has_province_modifier = province_kothar
+			}
+			remove_province_modifier = province_kothar
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#kubera flagging
+		if = {
+			limit = {
+				religion = kubera
+				NOT = { has_province_modifier = province_kubera }
+			}
+			add_province_modifier = {
+				name = province_kubera
+				duration = -1
+			}
+		}
+		#kubera cleansing
+		if = {
+			limit = {
+				NOT = { religion = kubera }
+				has_province_modifier = province_kubera
+			}
+			remove_province_modifier = province_kubera
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#lubu flagging
+		if = {
+			limit = {
+				religion = lubu
+				NOT = { has_province_modifier = province_lubu }
+			}
+			add_province_modifier = {
+				name = province_lubu
+				duration = -1
+			}
+		}
+		#lubu cleansing
+		if = {
+			limit = {
+				NOT = { religion = lubu }
+				has_province_modifier = province_lubu
+			}
+			remove_province_modifier = province_lubu
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#lugh flagging
+		if = {
+			limit = {
+				religion = lugh
+				NOT = { has_province_modifier = province_lugh }
+			}
+			add_province_modifier = {
+				name = province_lugh
+				duration = -1
+			}
+		}
+		#lugh cleansing
+		if = {
+			limit = {
+				NOT = { religion = lugh }
+				has_province_modifier = province_lugh
+			}
+			remove_province_modifier = province_lugh
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#luwian flagging
+		if = {
+			limit = {
+				religion = luwian
+				NOT = { has_province_modifier = province_luwian }
+			}
+			add_province_modifier = {
+				name = province_luwian
+				duration = -1
+			}
+		}
+		#luwian cleansing
+		if = {
+			limit = {
+				NOT = { religion = luwian }
+				has_province_modifier = province_luwian
+			}
+			remove_province_modifier = province_luwian
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#maher flagging
+		if = {
+			limit = {
+				religion = maher
+				NOT = { has_province_modifier = province_maher }
+			}
+			add_province_modifier = {
+				name = province_maher
+				duration = -1
+			}
+		}
+		#maher cleansing
+		if = {
+			limit = {
+				NOT = { religion = maher }
+				has_province_modifier = province_maher
+			}
+			remove_province_modifier = province_maher
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#makonde_pagan flagging
+		if = {
+			limit = {
+				religion = makonde_pagan
+				NOT = { has_province_modifier = province_makonde_pagan }
+			}
+			add_province_modifier = {
+				name = province_makonde_pagan
+				duration = -1
+			}
+		}
+		#makonde_pagan cleansing
+		if = {
+			limit = {
+				NOT = { religion = makonde_pagan }
+				has_province_modifier = province_makonde_pagan
+			}
+			remove_province_modifier = province_makonde_pagan
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#malakbel flagging
+		if = {
+			limit = {
+				religion = malakbel
+				NOT = { has_province_modifier = province_malakbel }
+			}
+			add_province_modifier = {
+				name = province_malakbel
+				duration = -1
+			}
+		}
+		#malakbel cleansing
+		if = {
+			limit = {
+				NOT = { religion = malakbel }
+				has_province_modifier = province_malakbel
+			}
+			remove_province_modifier = province_malakbel
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#mand_ruha flagging
+		if = {
+			limit = {
+				religion = mand_ruha
+				NOT = { has_province_modifier = province_mand_ruha }
+			}
+			add_province_modifier = {
+				name = province_mand_ruha
+				duration = -1
+			}
+		}
+		#mand_ruha cleansing
+		if = {
+			limit = {
+				NOT = { religion = mand_ruha }
+				has_province_modifier = province_mand_ruha
+			}
+			remove_province_modifier = province_mand_ruha
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#mandaean flagging
+		if = {
+			limit = {
+				religion = mandaean
+				NOT = { has_province_modifier = province_mandaean }
+			}
+			add_province_modifier = {
+				name = province_mandaean
+				duration = -1
+			}
+		}
+		#mandaean cleansing
+		if = {
+			limit = {
+				NOT = { religion = mandaean }
+				has_province_modifier = province_mandaean
+			}
+			remove_province_modifier = province_mandaean
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#mande_pagan flagging
+		if = {
+			limit = {
+				religion = mande_pagan
+				NOT = { has_province_modifier = province_mande_pagan }
+			}
+			add_province_modifier = {
+				name = province_mande_pagan
+				duration = -1
+			}
+		}
+		#mande_pagan cleansing
+		if = {
+			limit = {
+				NOT = { religion = mande_pagan }
+				has_province_modifier = province_mande_pagan
+			}
+			remove_province_modifier = province_mande_pagan
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#mani flagging
+		if = {
+			limit = {
+				religion = mani
+				NOT = { has_province_modifier = province_mani }
+			}
+			add_province_modifier = {
+				name = province_mani
+				duration = -1
+			}
+		}
+		#mani cleansing
+		if = {
+			limit = {
+				NOT = { religion = mani }
+				has_province_modifier = province_mani
+			}
+			remove_province_modifier = province_mani
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#mani_ahriman flagging
+		if = {
+			limit = {
+				religion = mani_ahriman
+				NOT = { has_province_modifier = province_mani_ahriman }
+			}
+			add_province_modifier = {
+				name = province_mani_ahriman
+				duration = -1
+			}
+		}
+		#mani_ahriman cleansing
+		if = {
+			limit = {
+				NOT = { religion = mani_ahriman }
+				has_province_modifier = province_mani_ahriman
+			}
+			remove_province_modifier = province_mani_ahriman
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#mani_germanic flagging
+		if = {
+			limit = {
+				religion = mani_germanic
+				NOT = { has_province_modifier = province_mani_germanic }
+			}
+			add_province_modifier = {
+				name = province_mani_germanic
+				duration = -1
+			}
+		}
+		#mani_germanic cleansing
+		if = {
+			limit = {
+				NOT = { religion = mani_germanic }
+				has_province_modifier = province_mani_germanic
+			}
+			remove_province_modifier = province_mani_germanic
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#mani_mithra flagging
+		if = {
+			limit = {
+				religion = mani_mithra
+				NOT = { has_province_modifier = province_mani_mithra }
+			}
+			add_province_modifier = {
+				name = province_mani_mithra
+				duration = -1
+			}
+		}
+		#mani_mithra cleansing
+		if = {
+			limit = {
+				NOT = { religion = mani_mithra }
+				has_province_modifier = province_mani_mithra
+			}
+			remove_province_modifier = province_mani_mithra
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#mani_slavic flagging
+		if = {
+			limit = {
+				religion = mani_slavic
+				NOT = { has_province_modifier = province_mani_slavic }
+			}
+			add_province_modifier = {
+				name = province_mani_slavic
+				duration = -1
+			}
+		}
+		#mani_slavic cleansing
+		if = {
+			limit = {
+				NOT = { religion = mani_slavic }
+				has_province_modifier = province_mani_slavic
+			}
+			remove_province_modifier = province_mani_slavic
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#marabout flagging
+		if = {
+			limit = {
+				religion = marabout
+				NOT = { has_province_modifier = province_marabout }
+			}
+			add_province_modifier = {
+				name = province_marabout
+				duration = -1
+			}
+		}
+		#marabout cleansing
+		if = {
+			limit = {
+				NOT = { religion = marabout }
+				has_province_modifier = province_marabout
+			}
+			remove_province_modifier = province_marabout
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#marcionist flagging
+		if = {
+			limit = {
+				religion = marcionist
+				NOT = { has_province_modifier = province_marcionist }
+			}
+			add_province_modifier = {
+				name = province_marcionist
+				duration = -1
+			}
+		}
+		#marcionist cleansing
+		if = {
+			limit = {
+				NOT = { religion = marcionist }
+				has_province_modifier = province_marcionist
+			}
+			remove_province_modifier = province_marcionist
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#mari_christ flagging
+		if = {
+			limit = {
+				religion = mari_christ
+				NOT = { has_province_modifier = province_mari_christ }
+			}
+			add_province_modifier = {
+				name = province_mari_christ
+				duration = -1
+			}
+		}
+		#mari_christ cleansing
+		if = {
+			limit = {
+				NOT = { religion = mari_christ }
+				has_province_modifier = province_mari_christ
+			}
+			remove_province_modifier = province_mari_christ
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#maturidi flagging
+		if = {
+			limit = {
+				religion = maturidi
+				NOT = { has_province_modifier = province_maturidi }
+			}
+			add_province_modifier = {
+				name = province_maturidi
+				duration = -1
+			}
+		}
+		#maturidi cleansing
+		if = {
+			limit = {
+				NOT = { religion = maturidi }
+				has_province_modifier = province_maturidi
+			}
+			remove_province_modifier = province_maturidi
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#mazdakism flagging
+		if = {
+			limit = {
+				religion = mazdakism
+				NOT = { has_province_modifier = province_mazdakism }
+			}
+			add_province_modifier = {
+				name = province_mazdakism
+				duration = -1
+			}
+		}
+		#mazdakism cleansing
+		if = {
+			limit = {
+				NOT = { religion = mazdakism }
+				has_province_modifier = province_mazdakism
+			}
+			remove_province_modifier = province_mazdakism
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#melkite flagging
+		if = {
+			limit = {
+				religion = melkite
+				NOT = { has_province_modifier = province_melkite }
+			}
+			add_province_modifier = {
+				name = province_melkite
+				duration = -1
+			}
+		}
+		#melkite cleansing
+		if = {
+			limit = {
+				NOT = { religion = melkite }
+				has_province_modifier = province_melkite
+			}
+			remove_province_modifier = province_melkite
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#mithra flagging
+		if = {
+			limit = {
+				religion = mithra
+				NOT = { has_province_modifier = province_mithra }
+			}
+			add_province_modifier = {
+				name = province_mithra
+				duration = -1
+			}
+		}
+		#mithra cleansing
+		if = {
+			limit = {
+				NOT = { religion = mithra }
+				has_province_modifier = province_mithra
+			}
+			remove_province_modifier = province_mithra
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#mithra_christ flagging
+		if = {
+			limit = {
+				religion = mithra_christ
+				NOT = { has_province_modifier = province_mithra_christ }
+			}
+			add_province_modifier = {
+				name = province_mithra_christ
+				duration = -1
+			}
+		}
+		#mithra_christ cleansing
+		if = {
+			limit = {
+				NOT = { religion = mithra_christ }
+				has_province_modifier = province_mithra_christ
+			}
+			remove_province_modifier = province_mithra_christ
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#mithra_sol flagging
+		if = {
+			limit = {
+				religion = mithra_sol
+				NOT = { has_province_modifier = province_mithra_sol }
+			}
+			add_province_modifier = {
+				name = province_mithra_sol
+				duration = -1
+			}
+		}
+		#mithra_sol cleansing
+		if = {
+			limit = {
+				NOT = { religion = mithra_sol }
+				has_province_modifier = province_mithra_sol
+			}
+			remove_province_modifier = province_mithra_sol
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#monophysite flagging
+		if = {
+			limit = {
+				religion = monophysite
+				NOT = { has_province_modifier = province_monophysite }
+			}
+			add_province_modifier = {
+				name = province_monophysite
+				duration = -1
+			}
+		}
+		#monophysite cleansing
+		if = {
+			limit = {
+				NOT = { religion = monophysite }
+				has_province_modifier = province_monophysite
+			}
+			remove_province_modifier = province_monophysite
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#monothelite flagging
+		if = {
+			limit = {
+				religion = monothelite
+				NOT = { has_province_modifier = province_monothelite }
+			}
+			add_province_modifier = {
+				name = province_monothelite
+				duration = -1
+			}
+		}
+		#monothelite cleansing
+		if = {
+			limit = {
+				NOT = { religion = monothelite }
+				has_province_modifier = province_monothelite
+			}
+			remove_province_modifier = province_monothelite
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#montanist flagging
+		if = {
+			limit = {
+				religion = montanist
+				NOT = { has_province_modifier = province_montanist }
+			}
+			add_province_modifier = {
+				name = province_montanist
+				duration = -1
+			}
+		}
+		#montanist cleansing
+		if = {
+			limit = {
+				NOT = { religion = montanist }
+				has_province_modifier = province_montanist
+			}
+			remove_province_modifier = province_montanist
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#murjiah flagging
+		if = {
+			limit = {
+				religion = murjiah
+				NOT = { has_province_modifier = province_murjiah }
+			}
+			add_province_modifier = {
+				name = province_murjiah
+				duration = -1
+			}
+		}
+		#murjiah cleansing
+		if = {
+			limit = {
+				NOT = { religion = murjiah }
+				has_province_modifier = province_murjiah
+			}
+			remove_province_modifier = province_murjiah
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#murugan flagging
+		if = {
+			limit = {
+				religion = murugan
+				NOT = { has_province_modifier = province_murugan }
+			}
+			add_province_modifier = {
+				name = province_murugan
+				duration = -1
+			}
+		}
+		#murugan cleansing
+		if = {
+			limit = {
+				NOT = { religion = murugan }
+				has_province_modifier = province_murugan
+			}
+			remove_province_modifier = province_murugan
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#mutazil flagging
+		if = {
+			limit = {
+				religion = mutazil
+				NOT = { has_province_modifier = province_mutazil }
+			}
+			add_province_modifier = {
+				name = province_mutazil
+				duration = -1
+			}
+		}
+		#mutazil cleansing
+		if = {
+			limit = {
+				NOT = { religion = mutazil }
+				has_province_modifier = province_mutazil
+			}
+			remove_province_modifier = province_mutazil
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#mwari flagging
+		if = {
+			limit = {
+				religion = mwari
+				NOT = { has_province_modifier = province_mwari }
+			}
+			add_province_modifier = {
+				name = province_mwari
+				duration = -1
+			}
+		}
+		#mwari cleansing
+		if = {
+			limit = {
+				NOT = { religion = mwari }
+				has_province_modifier = province_mwari
+			}
+			remove_province_modifier = province_mwari
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#nasrani flagging
+		if = {
+			limit = {
+				religion = nasrani
+				NOT = { has_province_modifier = province_nasrani }
+			}
+			add_province_modifier = {
+				name = province_nasrani
+				duration = -1
+			}
+		}
+		#nasrani cleansing
+		if = {
+			limit = {
+				NOT = { religion = nasrani }
+				has_province_modifier = province_nasrani
+			}
+			remove_province_modifier = province_nasrani
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#neoplato flagging
+		if = {
+			limit = {
+				religion = neoplato
+				NOT = { has_province_modifier = province_neoplato }
+			}
+			add_province_modifier = {
+				name = province_neoplato
+				duration = -1
+			}
+		}
+		#neoplato cleansing
+		if = {
+			limit = {
+				NOT = { religion = neoplato }
+				has_province_modifier = province_neoplato
+			}
+			remove_province_modifier = province_neoplato
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#nestorian flagging
+		if = {
+			limit = {
+				religion = nestorian
+				NOT = { has_province_modifier = province_nestorian }
+			}
+			add_province_modifier = {
+				name = province_nestorian
+				duration = -1
+			}
+		}
+		#nestorian cleansing
+		if = {
+			limit = {
+				NOT = { religion = nestorian }
+				has_province_modifier = province_nestorian
+			}
+			remove_province_modifier = province_nestorian
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#norse_christ flagging
+		if = {
+			limit = {
+				religion = norse_christ
+				NOT = { has_province_modifier = province_norse_christ }
+			}
+			add_province_modifier = {
+				name = province_norse_christ
+				duration = -1
+			}
+		}
+		#norse_christ cleansing
+		if = {
+			limit = {
+				NOT = { religion = norse_christ }
+				has_province_modifier = province_norse_christ
+			}
+			remove_province_modifier = province_norse_christ
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#norse_pagan flagging
+		if = {
+			limit = {
+				religion = norse_pagan
+				NOT = { has_province_modifier = province_norse_pagan }
+			}
+			add_province_modifier = {
+				name = province_norse_pagan
+				duration = -1
+			}
+		}
+		#norse_pagan cleansing
+		if = {
+			limit = {
+				NOT = { religion = norse_pagan }
+				has_province_modifier = province_norse_pagan
+			}
+			remove_province_modifier = province_norse_pagan
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#norse_war flagging
+		if = {
+			limit = {
+				religion = norse_war
+				NOT = { has_province_modifier = province_norse_war }
+			}
+			add_province_modifier = {
+				name = province_norse_war
+				duration = -1
+			}
+		}
+		#norse_war cleansing
+		if = {
+			limit = {
+				NOT = { religion = norse_war }
+				has_province_modifier = province_norse_war
+			}
+			remove_province_modifier = province_norse_war
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#nott flagging
+		if = {
+			limit = {
+				religion = nott
+				NOT = { has_province_modifier = province_nott }
+			}
+			add_province_modifier = {
+				name = province_nott
+				duration = -1
+			}
+		}
+		#nott cleansing
+		if = {
+			limit = {
+				NOT = { religion = nott }
+				has_province_modifier = province_nott
+			}
+			remove_province_modifier = province_nott
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#nyame flagging
+		if = {
+			limit = {
+				religion = nyame
+				NOT = { has_province_modifier = province_nyame }
+			}
+			add_province_modifier = {
+				name = province_nyame
+				duration = -1
+			}
+		}
+		#nyame cleansing
+		if = {
+			limit = {
+				NOT = { religion = nyame }
+				has_province_modifier = province_nyame
+			}
+			remove_province_modifier = province_nyame
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#nyasaye flagging
+		if = {
+			limit = {
+				religion = nyasaye
+				NOT = { has_province_modifier = province_nyasaye }
+			}
+			add_province_modifier = {
+				name = province_nyasaye
+				duration = -1
+			}
+		}
+		#nyasaye cleansing
+		if = {
+			limit = {
+				NOT = { religion = nyasaye }
+				has_province_modifier = province_nyasaye
+			}
+			remove_province_modifier = province_nyasaye
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#nyau flagging
+		if = {
+			limit = {
+				religion = nyau
+				NOT = { has_province_modifier = province_nyau }
+			}
+			add_province_modifier = {
+				name = province_nyau
+				duration = -1
+			}
+		}
+		#nyau cleansing
+		if = {
+			limit = {
+				NOT = { religion = nyau }
+				has_province_modifier = province_nyau
+			}
+			remove_province_modifier = province_nyau
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#orthodox flagging
+		if = {
+			limit = {
+				religion = orthodox
+				NOT = { has_province_modifier = province_orthodox }
+			}
+			add_province_modifier = {
+				name = province_orthodox
+				duration = -1
+			}
+		}
+		#orthodox cleansing
+		if = {
+			limit = {
+				NOT = { religion = orthodox }
+				has_province_modifier = province_orthodox
+			}
+			remove_province_modifier = province_orthodox
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#palmyran_pagan flagging
+		if = {
+			limit = {
+				religion = palmyran_pagan
+				NOT = { has_province_modifier = province_palmyran_pagan }
+			}
+			add_province_modifier = {
+				name = province_palmyran_pagan
+				duration = -1
+			}
+		}
+		#palmyran_pagan cleansing
+		if = {
+			limit = {
+				NOT = { religion = palmyran_pagan }
+				has_province_modifier = province_palmyran_pagan
+			}
+			remove_province_modifier = province_palmyran_pagan
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#peckols flagging
+		if = {
+			limit = {
+				religion = peckols
+				NOT = { has_province_modifier = province_peckols }
+			}
+			add_province_modifier = {
+				name = province_peckols
+				duration = -1
+			}
+		}
+		#peckols cleansing
+		if = {
+			limit = {
+				NOT = { religion = peckols }
+				has_province_modifier = province_peckols
+			}
+			remove_province_modifier = province_peckols
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#pelagian flagging
+		if = {
+			limit = {
+				religion = pelagian
+				NOT = { has_province_modifier = province_pelagian }
+			}
+			add_province_modifier = {
+				name = province_pelagian
+				duration = -1
+			}
+		}
+		#pelagian cleansing
+		if = {
+			limit = {
+				NOT = { religion = pelagian }
+				has_province_modifier = province_pelagian
+			}
+			remove_province_modifier = province_pelagian
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#perkunas flagging
+		if = {
+			limit = {
+				religion = perkunas
+				NOT = { has_province_modifier = province_perkunas }
+			}
+			add_province_modifier = {
+				name = province_perkunas
+				duration = -1
+			}
+		}
+		#perkunas cleansing
+		if = {
+			limit = {
+				NOT = { religion = perkunas }
+				has_province_modifier = province_perkunas
+			}
+			remove_province_modifier = province_perkunas
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#perun flagging
+		if = {
+			limit = {
+				religion = perun
+				NOT = { has_province_modifier = province_perun }
+			}
+			add_province_modifier = {
+				name = province_perun
+				duration = -1
+			}
+		}
+		#perun cleansing
+		if = {
+			limit = {
+				NOT = { religion = perun }
+				has_province_modifier = province_perun
+			}
+			remove_province_modifier = province_perun
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#plato_christ flagging
+		if = {
+			limit = {
+				religion = plato_christ
+				NOT = { has_province_modifier = province_plato_christ }
+			}
+			add_province_modifier = {
+				name = province_plato_christ
+				duration = -1
+			}
+		}
+		#plato_christ cleansing
+		if = {
+			limit = {
+				NOT = { religion = plato_christ }
+				has_province_modifier = province_plato_christ
+			}
+			remove_province_modifier = province_plato_christ
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#plato_islam flagging
+		if = {
+			limit = {
+				religion = plato_islam
+				NOT = { has_province_modifier = province_plato_islam }
+			}
+			add_province_modifier = {
+				name = province_plato_islam
+				duration = -1
+			}
+		}
+		#plato_islam cleansing
+		if = {
+			limit = {
+				NOT = { religion = plato_islam }
+				has_province_modifier = province_plato_islam
+			}
+			remove_province_modifier = province_plato_islam
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#plato_pythagorean flagging
+		if = {
+			limit = {
+				religion = plato_pythagorean
+				NOT = { has_province_modifier = province_plato_pythagorean }
+			}
+			add_province_modifier = {
+				name = province_plato_pythagorean
+				duration = -1
+			}
+		}
+		#plato_pythagorean cleansing
+		if = {
+			limit = {
+				NOT = { religion = plato_pythagorean }
+				has_province_modifier = province_plato_pythagorean
+			}
+			remove_province_modifier = province_plato_pythagorean
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#porphyryan flagging
+		if = {
+			limit = {
+				religion = porphyryan
+				NOT = { has_province_modifier = province_porphyryan }
+			}
+			add_province_modifier = {
+				name = province_porphyryan
+				duration = -1
+			}
+		}
+		#porphyryan cleansing
+		if = {
+			limit = {
+				NOT = { religion = porphyryan }
+				has_province_modifier = province_porphyryan
+			}
+			remove_province_modifier = province_porphyryan
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#priscillian flagging
+		if = {
+			limit = {
+				religion = priscillian
+				NOT = { has_province_modifier = province_priscillian }
+			}
+			add_province_modifier = {
+				name = province_priscillian
+				duration = -1
+			}
+		}
+		#priscillian cleansing
+		if = {
+			limit = {
+				NOT = { religion = priscillian }
+				has_province_modifier = province_priscillian
+			}
+			remove_province_modifier = province_priscillian
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#qarmatian flagging
+		if = {
+			limit = {
+				religion = qarmatian
+				NOT = { has_province_modifier = province_qarmatian }
+			}
+			add_province_modifier = {
+				name = province_qarmatian
+				duration = -1
+			}
+		}
+		#qarmatian cleansing
+		if = {
+			limit = {
+				NOT = { religion = qarmatian }
+				has_province_modifier = province_qarmatian
+			}
+			remove_province_modifier = province_qarmatian
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#ragnarok flagging
+		if = {
+			limit = {
+				religion = ragnarok
+				NOT = { has_province_modifier = province_ragnarok }
+			}
+			add_province_modifier = {
+				name = province_ragnarok
+				duration = -1
+			}
+		}
+		#ragnarok cleansing
+		if = {
+			limit = {
+				NOT = { religion = ragnarok }
+				has_province_modifier = province_ragnarok
+			}
+			remove_province_modifier = province_ragnarok
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#rod flagging
+		if = {
+			limit = {
+				religion = rod
+				NOT = { has_province_modifier = province_rod }
+			}
+			add_province_modifier = {
+				name = province_rod
+				duration = -1
+			}
+		}
+		#rod cleansing
+		if = {
+			limit = {
+				NOT = { religion = rod }
+				has_province_modifier = province_rod
+			}
+			remove_province_modifier = province_rod
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#roman_imperial flagging
+		if = {
+			limit = {
+				religion = roman_imperial
+				NOT = { has_province_modifier = province_roman_imperial }
+			}
+			add_province_modifier = {
+				name = province_roman_imperial
+				duration = -1
+			}
+		}
+		#roman_imperial cleansing
+		if = {
+			limit = {
+				NOT = { religion = roman_imperial }
+				has_province_modifier = province_roman_imperial
+			}
+			remove_province_modifier = province_roman_imperial
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#sabellianist flagging
+		if = {
+			limit = {
+				religion = sabellianist
+				NOT = { has_province_modifier = province_sabellianist }
+			}
+			add_province_modifier = {
+				name = province_sabellianist
+				duration = -1
+			}
+		}
+		#sabellianist cleansing
+		if = {
+			limit = {
+				NOT = { religion = sabellianist }
+				has_province_modifier = province_sabellianist
+			}
+			remove_province_modifier = province_sabellianist
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#saule flagging
+		if = {
+			limit = {
+				religion = saule
+				NOT = { has_province_modifier = province_saule }
+			}
+			add_province_modifier = {
+				name = province_saule
+				duration = -1
+			}
+		}
+		#saule cleansing
+		if = {
+			limit = {
+				NOT = { religion = saule }
+				has_province_modifier = province_saule
+			}
+			remove_province_modifier = province_saule
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#saura flagging
+		if = {
+			limit = {
+				religion = saura
+				NOT = { has_province_modifier = province_saura }
+			}
+			add_province_modifier = {
+				name = province_saura
+				duration = -1
+			}
+		}
+		#saura cleansing
+		if = {
+			limit = {
+				NOT = { religion = saura }
+				has_province_modifier = province_saura
+			}
+			remove_province_modifier = province_saura
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#semipelagian flagging
+		if = {
+			limit = {
+				religion = semipelagian
+				NOT = { has_province_modifier = province_semipelagian }
+			}
+			add_province_modifier = {
+				name = province_semipelagian
+				duration = -1
+			}
+		}
+		#semipelagian cleansing
+		if = {
+			limit = {
+				NOT = { religion = semipelagian }
+				has_province_modifier = province_semipelagian
+			}
+			remove_province_modifier = province_semipelagian
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#set flagging
+		if = {
+			limit = {
+				religion = set
+				NOT = { has_province_modifier = province_set }
+			}
+			add_province_modifier = {
+				name = province_set
+				duration = -1
+			}
+		}
+		#set cleansing
+		if = {
+			limit = {
+				NOT = { religion = set }
+				has_province_modifier = province_set
+			}
+			remove_province_modifier = province_set
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#sethian flagging
+		if = {
+			limit = {
+				religion = sethian
+				NOT = { has_province_modifier = province_sethian }
+			}
+			add_province_modifier = {
+				name = province_sethian
+				duration = -1
+			}
+		}
+		#sethian cleansing
+		if = {
+			limit = {
+				NOT = { religion = sethian }
+				has_province_modifier = province_sethian
+			}
+			remove_province_modifier = province_sethian
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#shams flagging
+		if = {
+			limit = {
+				religion = shams
+				NOT = { has_province_modifier = province_shams }
+			}
+			add_province_modifier = {
+				name = province_shams
+				duration = -1
+			}
+		}
+		#shams cleansing
+		if = {
+			limit = {
+				NOT = { religion = shams }
+				has_province_modifier = province_shams
+			}
+			remove_province_modifier = province_shams
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#shiite flagging
+		if = {
+			limit = {
+				religion = shiite
+				NOT = { has_province_modifier = province_shiite }
+			}
+			add_province_modifier = {
+				name = province_shiite
+				duration = -1
+			}
+		}
+		#shiite cleansing
+		if = {
+			limit = {
+				NOT = { religion = shiite }
+				has_province_modifier = province_shiite
+			}
+			remove_province_modifier = province_shiite
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#slavic_christian flagging
+		if = {
+			limit = {
+				religion = slavic_christian
+				NOT = { has_province_modifier = province_slavic_christian }
+			}
+			add_province_modifier = {
+				name = province_slavic_christian
+				duration = -1
+			}
+		}
+		#slavic_christian cleansing
+		if = {
+			limit = {
+				NOT = { religion = slavic_christian }
+				has_province_modifier = province_slavic_christian
+			}
+			remove_province_modifier = province_slavic_christian
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#slavic_pagan flagging
+		if = {
+			limit = {
+				religion = slavic_pagan
+				NOT = { has_province_modifier = province_slavic_pagan }
+			}
+			add_province_modifier = {
+				name = province_slavic_pagan
+				duration = -1
+			}
+		}
+		#slavic_pagan cleansing
+		if = {
+			limit = {
+				NOT = { religion = slavic_pagan }
+				has_province_modifier = province_slavic_pagan
+			}
+			remove_province_modifier = province_slavic_pagan
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#sol flagging
+		if = {
+			limit = {
+				religion = sol
+				NOT = { has_province_modifier = province_sol }
+			}
+			add_province_modifier = {
+				name = province_sol
+				duration = -1
+			}
+		}
+		#sol cleansing
+		if = {
+			limit = {
+				NOT = { religion = sol }
+				has_province_modifier = province_sol
+			}
+			remove_province_modifier = province_sol
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#sol_apollo flagging
+		if = {
+			limit = {
+				religion = sol_apollo
+				NOT = { has_province_modifier = province_sol_apollo }
+			}
+			add_province_modifier = {
+				name = province_sol_apollo
+				duration = -1
+			}
+		}
+		#sol_apollo cleansing
+		if = {
+			limit = {
+				NOT = { religion = sol_apollo }
+				has_province_modifier = province_sol_apollo
+			}
+			remove_province_modifier = province_sol_apollo
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#sol_boreas flagging
+		if = {
+			limit = {
+				religion = sol_boreas
+				NOT = { has_province_modifier = province_sol_boreas }
+			}
+			add_province_modifier = {
+				name = province_sol_boreas
+				duration = -1
+			}
+		}
+		#sol_boreas cleansing
+		if = {
+			limit = {
+				NOT = { religion = sol_boreas }
+				has_province_modifier = province_sol_boreas
+			}
+			remove_province_modifier = province_sol_boreas
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#sol_christ flagging
+		if = {
+			limit = {
+				religion = sol_christ
+				NOT = { has_province_modifier = province_sol_christ }
+			}
+			add_province_modifier = {
+				name = province_sol_christ
+				duration = -1
+			}
+		}
+		#sol_christ cleansing
+		if = {
+			limit = {
+				NOT = { religion = sol_christ }
+				has_province_modifier = province_sol_christ
+			}
+			remove_province_modifier = province_sol_christ
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#sol_islam flagging
+		if = {
+			limit = {
+				religion = sol_islam
+				NOT = { has_province_modifier = province_sol_islam }
+			}
+			add_province_modifier = {
+				name = province_sol_islam
+				duration = -1
+			}
+		}
+		#sol_islam cleansing
+		if = {
+			limit = {
+				NOT = { religion = sol_islam }
+				has_province_modifier = province_sol_islam
+			}
+			remove_province_modifier = province_sol_islam
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#sol_mani flagging
+		if = {
+			limit = {
+				religion = sol_mani
+				NOT = { has_province_modifier = province_sol_mani }
+			}
+			add_province_modifier = {
+				name = province_sol_mani
+				duration = -1
+			}
+		}
+		#sol_mani cleansing
+		if = {
+			limit = {
+				NOT = { religion = sol_mani }
+				has_province_modifier = province_sol_mani
+			}
+			remove_province_modifier = province_sol_mani
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#sol_norse flagging
+		if = {
+			limit = {
+				religion = sol_norse
+				NOT = { has_province_modifier = province_sol_norse }
+			}
+			add_province_modifier = {
+				name = province_sol_norse
+				duration = -1
+			}
+		}
+		#sol_norse cleansing
+		if = {
+			limit = {
+				NOT = { religion = sol_norse }
+				has_province_modifier = province_sol_norse
+			}
+			remove_province_modifier = province_sol_norse
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#sol_sahara flagging
+		if = {
+			limit = {
+				religion = sol_sahara
+				NOT = { has_province_modifier = province_sol_sahara }
+			}
+			add_province_modifier = {
+				name = province_sol_sahara
+				duration = -1
+			}
+		}
+		#sol_sahara cleansing
+		if = {
+			limit = {
+				NOT = { religion = sol_sahara }
+				has_province_modifier = province_sol_sahara
+			}
+			remove_province_modifier = province_sol_sahara
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#sol_slav flagging
+		if = {
+			limit = {
+				religion = sol_slav
+				NOT = { has_province_modifier = province_sol_slav }
+			}
+			add_province_modifier = {
+				name = province_sol_slav
+				duration = -1
+			}
+		}
+		#sol_slav cleansing
+		if = {
+			limit = {
+				NOT = { religion = sol_slav }
+				has_province_modifier = province_sol_slav
+			}
+			remove_province_modifier = province_sol_slav
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#sol_tsahay flagging
+		if = {
+			limit = {
+				religion = sol_tsahay
+				NOT = { has_province_modifier = province_sol_tsahay }
+			}
+			add_province_modifier = {
+				name = province_sol_tsahay
+				duration = -1
+			}
+		}
+		#sol_tsahay cleansing
+		if = {
+			limit = {
+				NOT = { religion = sol_tsahay }
+				has_province_modifier = province_sol_tsahay
+			}
+			remove_province_modifier = province_sol_tsahay
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#solomonic_alexandros flagging
+		if = {
+			limit = {
+				religion = solomonic_alexandros
+				NOT = { has_province_modifier = province_solomonic_alexandros }
+			}
+			add_province_modifier = {
+				name = province_solomonic_alexandros
+				duration = -1
+			}
+		}
+		#solomonic_alexandros cleansing
+		if = {
+			limit = {
+				NOT = { religion = solomonic_alexandros }
+				has_province_modifier = province_solomonic_alexandros
+			}
+			remove_province_modifier = province_solomonic_alexandros
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#solomonic_christ flagging
+		if = {
+			limit = {
+				religion = solomonic_christ
+				NOT = { has_province_modifier = province_solomonic_christ }
+			}
+			add_province_modifier = {
+				name = province_solomonic_christ
+				duration = -1
+			}
+		}
+		#solomonic_christ cleansing
+		if = {
+			limit = {
+				NOT = { religion = solomonic_christ }
+				has_province_modifier = province_solomonic_christ
+			}
+			remove_province_modifier = province_solomonic_christ
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#sowilo flagging
+		if = {
+			limit = {
+				religion = sowilo
+				NOT = { has_province_modifier = province_sowilo }
+			}
+			add_province_modifier = {
+				name = province_sowilo
+				duration = -1
+			}
+		}
+		#sowilo cleansing
+		if = {
+			limit = {
+				NOT = { religion = sowilo }
+				has_province_modifier = province_sowilo
+			}
+			remove_province_modifier = province_sowilo
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#sufi flagging
+		if = {
+			limit = {
+				religion = sufi
+				NOT = { has_province_modifier = province_sufi }
+			}
+			add_province_modifier = {
+				name = province_sufi
+				duration = -1
+			}
+		}
+		#sufi cleansing
+		if = {
+			limit = {
+				NOT = { religion = sufi }
+				has_province_modifier = province_sufi
+			}
+			remove_province_modifier = province_sufi
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#sunni flagging
+		if = {
+			limit = {
+				religion = sunni
+				NOT = { has_province_modifier = province_sunni }
+			}
+			add_province_modifier = {
+				name = province_sunni
+				duration = -1
+			}
+		}
+		#sunni cleansing
+		if = {
+			limit = {
+				NOT = { religion = sunni }
+				has_province_modifier = province_sunni
+			}
+			remove_province_modifier = province_sunni
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#svaroh flagging
+		if = {
+			limit = {
+				religion = svaroh
+				NOT = { has_province_modifier = province_svaroh }
+			}
+			add_province_modifier = {
+				name = province_svaroh
+				duration = -1
+			}
+		}
+		#svaroh cleansing
+		if = {
+			limit = {
+				NOT = { religion = svaroh }
+				has_province_modifier = province_svaroh
+			}
+			remove_province_modifier = province_svaroh
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#svetovid flagging
+		if = {
+			limit = {
+				religion = svetovid
+				NOT = { has_province_modifier = province_svetovid }
+			}
+			add_province_modifier = {
+				name = province_svetovid
+				duration = -1
+			}
+		}
+		#svetovid cleansing
+		if = {
+			limit = {
+				NOT = { religion = svetovid }
+				has_province_modifier = province_svetovid
+			}
+			remove_province_modifier = province_svetovid
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#talab flagging
+		if = {
+			limit = {
+				religion = talab
+				NOT = { has_province_modifier = province_talab }
+			}
+			add_province_modifier = {
+				name = province_talab
+				duration = -1
+			}
+		}
+		#talab cleansing
+		if = {
+			limit = {
+				NOT = { religion = talab }
+				has_province_modifier = province_talab
+			}
+			remove_province_modifier = province_talab
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#tao flagging
+		if = {
+			limit = {
+				religion = tao
+				NOT = { has_province_modifier = province_tao }
+			}
+			add_province_modifier = {
+				name = province_tao
+				duration = -1
+			}
+		}
+		#tao cleansing
+		if = {
+			limit = {
+				NOT = { religion = tao }
+				has_province_modifier = province_tao
+			}
+			remove_province_modifier = province_tao
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#tarhunt flagging
+		if = {
+			limit = {
+				religion = tarhunt
+				NOT = { has_province_modifier = province_tarhunt }
+			}
+			add_province_modifier = {
+				name = province_tarhunt
+				duration = -1
+			}
+		}
+		#tarhunt cleansing
+		if = {
+			limit = {
+				NOT = { religion = tarhunt }
+				has_province_modifier = province_tarhunt
+			}
+			remove_province_modifier = province_tarhunt
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#teiwaz flagging
+		if = {
+			limit = {
+				religion = teiwaz
+				NOT = { has_province_modifier = province_teiwaz }
+			}
+			add_province_modifier = {
+				name = province_teiwaz
+				duration = -1
+			}
+		}
+		#teiwaz cleansing
+		if = {
+			limit = {
+				NOT = { religion = teiwaz }
+				has_province_modifier = province_teiwaz
+			}
+			remove_province_modifier = province_teiwaz
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#tengri_ahriman flagging
+		if = {
+			limit = {
+				religion = tengri_ahriman
+				NOT = { has_province_modifier = province_tengri_ahriman }
+			}
+			add_province_modifier = {
+				name = province_tengri_ahriman
+				duration = -1
+			}
+		}
+		#tengri_ahriman cleansing
+		if = {
+			limit = {
+				NOT = { religion = tengri_ahriman }
+				has_province_modifier = province_tengri_ahriman
+			}
+			remove_province_modifier = province_tengri_ahriman
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#tengri_bud flagging
+		if = {
+			limit = {
+				religion = tengri_bud
+				NOT = { has_province_modifier = province_tengri_bud }
+			}
+			add_province_modifier = {
+				name = province_tengri_bud
+				duration = -1
+			}
+		}
+		#tengri_bud cleansing
+		if = {
+			limit = {
+				NOT = { religion = tengri_bud }
+				has_province_modifier = province_tengri_bud
+			}
+			remove_province_modifier = province_tengri_bud
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#tengri_confucian flagging
+		if = {
+			limit = {
+				religion = tengri_confucian
+				NOT = { has_province_modifier = province_tengri_confucian }
+			}
+			add_province_modifier = {
+				name = province_tengri_confucian
+				duration = -1
+			}
+		}
+		#tengri_confucian cleansing
+		if = {
+			limit = {
+				NOT = { religion = tengri_confucian }
+				has_province_modifier = province_tengri_confucian
+			}
+			remove_province_modifier = province_tengri_confucian
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#tengri_mani flagging
+		if = {
+			limit = {
+				religion = tengri_mani
+				NOT = { has_province_modifier = province_tengri_mani }
+			}
+			add_province_modifier = {
+				name = province_tengri_mani
+				duration = -1
+			}
+		}
+		#tengri_mani cleansing
+		if = {
+			limit = {
+				NOT = { religion = tengri_mani }
+				has_province_modifier = province_tengri_mani
+			}
+			remove_province_modifier = province_tengri_mani
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#tengri_pagan flagging
+		if = {
+			limit = {
+				religion = tengri_pagan
+				NOT = { has_province_modifier = province_tengri_pagan }
+			}
+			add_province_modifier = {
+				name = province_tengri_pagan
+				duration = -1
+			}
+		}
+		#tengri_pagan cleansing
+		if = {
+			limit = {
+				NOT = { religion = tengri_pagan }
+				has_province_modifier = province_tengri_pagan
+			}
+			remove_province_modifier = province_tengri_pagan
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#tengri_rod flagging
+		if = {
+			limit = {
+				religion = tengri_rod
+				NOT = { has_province_modifier = province_tengri_rod }
+			}
+			add_province_modifier = {
+				name = province_tengri_rod
+				duration = -1
+			}
+		}
+		#tengri_rod cleansing
+		if = {
+			limit = {
+				NOT = { religion = tengri_rod }
+				has_province_modifier = province_tengri_rod
+			}
+			remove_province_modifier = province_tengri_rod
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#unctionist flagging
+		if = {
+			limit = {
+				religion = unctionist
+				NOT = { has_province_modifier = province_unctionist }
+			}
+			add_province_modifier = {
+				name = province_unctionist
+				duration = -1
+			}
+		}
+		#unctionist cleansing
+		if = {
+			limit = {
+				NOT = { religion = unctionist }
+				has_province_modifier = province_unctionist
+			}
+			remove_province_modifier = province_unctionist
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#valentinian flagging
+		if = {
+			limit = {
+				religion = valentinian
+				NOT = { has_province_modifier = province_valentinian }
+			}
+			add_province_modifier = {
+				name = province_valentinian
+				duration = -1
+			}
+		}
+		#valentinian cleansing
+		if = {
+			limit = {
+				NOT = { religion = valentinian }
+				has_province_modifier = province_valentinian
+			}
+			remove_province_modifier = province_valentinian
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#vattisenyaly flagging
+		if = {
+			limit = {
+				religion = vattisenyaly
+				NOT = { has_province_modifier = province_vattisenyaly }
+			}
+			add_province_modifier = {
+				name = province_vattisenyaly
+				duration = -1
+			}
+		}
+		#vattisenyaly cleansing
+		if = {
+			limit = {
+				NOT = { religion = vattisenyaly }
+				has_province_modifier = province_vattisenyaly
+			}
+			remove_province_modifier = province_vattisenyaly
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#veles flagging
+		if = {
+			limit = {
+				religion = veles
+				NOT = { has_province_modifier = province_veles }
+			}
+			add_province_modifier = {
+				name = province_veles
+				duration = -1
+			}
+		}
+		#veles cleansing
+		if = {
+			limit = {
+				NOT = { religion = veles }
+				has_province_modifier = province_veles
+			}
+			remove_province_modifier = province_veles
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#vidharma flagging
+		if = {
+			limit = {
+				religion = vidharma
+				NOT = { has_province_modifier = province_vidharma }
+			}
+			add_province_modifier = {
+				name = province_vidharma
+				duration = -1
+			}
+		}
+		#vidharma cleansing
+		if = {
+			limit = {
+				NOT = { religion = vidharma }
+				has_province_modifier = province_vidharma
+			}
+			remove_province_modifier = province_vidharma
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#voipel flagging
+		if = {
+			limit = {
+				religion = voipel
+				NOT = { has_province_modifier = province_voipel }
+			}
+			add_province_modifier = {
+				name = province_voipel
+				duration = -1
+			}
+		}
+		#voipel cleansing
+		if = {
+			limit = {
+				NOT = { religion = voipel }
+				has_province_modifier = province_voipel
+			}
+			remove_province_modifier = province_voipel
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#waaq flagging
+		if = {
+			limit = {
+				religion = waaq
+				NOT = { has_province_modifier = province_waaq }
+			}
+			add_province_modifier = {
+				name = province_waaq
+				duration = -1
+			}
+		}
+		#waaq cleansing
+		if = {
+			limit = {
+				NOT = { religion = waaq }
+				has_province_modifier = province_waaq
+			}
+			remove_province_modifier = province_waaq
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#waldensian flagging
+		if = {
+			limit = {
+				religion = waldensian
+				NOT = { has_province_modifier = province_waldensian }
+			}
+			add_province_modifier = {
+				name = province_waldensian
+				duration = -1
+			}
+		}
+		#waldensian cleansing
+		if = {
+			limit = {
+				NOT = { religion = waldensian }
+				has_province_modifier = province_waldensian
+			}
+			remove_province_modifier = province_waldensian
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#yahyanism flagging
+		if = {
+			limit = {
+				religion = yahyanism
+				NOT = { has_province_modifier = province_yahyanism }
+			}
+			add_province_modifier = {
+				name = province_yahyanism
+				duration = -1
+			}
+		}
+		#yahyanism cleansing
+		if = {
+			limit = {
+				NOT = { religion = yahyanism }
+				has_province_modifier = province_yahyanism
+			}
+			remove_province_modifier = province_yahyanism
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#yazdanism flagging
+		if = {
+			limit = {
+				religion = yazdanism
+				NOT = { has_province_modifier = province_yazdanism }
+			}
+			add_province_modifier = {
+				name = province_yazdanism
+				duration = -1
+			}
+		}
+		#yazdanism cleansing
+		if = {
+			limit = {
+				NOT = { religion = yazdanism }
+				has_province_modifier = province_yazdanism
+			}
+			remove_province_modifier = province_yazdanism
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#yazidism flagging
+		if = {
+			limit = {
+				religion = yazidism
+				NOT = { has_province_modifier = province_yazidism }
+			}
+			add_province_modifier = {
+				name = province_yazidism
+				duration = -1
+			}
+		}
+		#yazidism cleansing
+		if = {
+			limit = {
+				NOT = { religion = yazidism }
+				has_province_modifier = province_yazidism
+			}
+			remove_province_modifier = province_yazidism
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#yoruba flagging
+		if = {
+			limit = {
+				religion = yoruba
+				NOT = { has_province_modifier = province_yoruba }
+			}
+			add_province_modifier = {
+				name = province_yoruba
+				duration = -1
+			}
+		}
+		#yoruba cleansing
+		if = {
+			limit = {
+				NOT = { religion = yoruba }
+				has_province_modifier = province_yoruba
+			}
+			remove_province_modifier = province_yoruba
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#zahiri flagging
+		if = {
+			limit = {
+				religion = zahiri
+				NOT = { has_province_modifier = province_zahiri }
+			}
+			add_province_modifier = {
+				name = province_zahiri
+				duration = -1
+			}
+		}
+		#zahiri cleansing
+		if = {
+			limit = {
+				NOT = { religion = zahiri }
+				has_province_modifier = province_zahiri
+			}
+			remove_province_modifier = province_zahiri
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#zal flagging
+		if = {
+			limit = {
+				religion = zal
+				NOT = { has_province_modifier = province_zal }
+			}
+			add_province_modifier = {
+				name = province_zal
+				duration = -1
+			}
+		}
+		#zal cleansing
+		if = {
+			limit = {
+				NOT = { religion = zal }
+				has_province_modifier = province_zal
+			}
+			remove_province_modifier = province_zal
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#zal_christ flagging
+		if = {
+			limit = {
+				religion = zal_christ
+				NOT = { has_province_modifier = province_zal_christ }
+			}
+			add_province_modifier = {
+				name = province_zal_christ
+				duration = -1
+			}
+		}
+		#zal_christ cleansing
+		if = {
+			limit = {
+				NOT = { religion = zal_christ }
+				has_province_modifier = province_zal_christ
+			}
+			remove_province_modifier = province_zal_christ
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#zal_mani flagging
+		if = {
+			limit = {
+				religion = zal_mani
+				NOT = { has_province_modifier = province_zal_mani }
+			}
+			add_province_modifier = {
+				name = province_zal_mani
+				duration = -1
+			}
+		}
+		#zal_mani cleansing
+		if = {
+			limit = {
+				NOT = { religion = zal_mani }
+				has_province_modifier = province_zal_mani
+			}
+			remove_province_modifier = province_zal_mani
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#zande_pagan flagging
+		if = {
+			limit = {
+				religion = zande_pagan
+				NOT = { has_province_modifier = province_zande_pagan }
+			}
+			add_province_modifier = {
+				name = province_zande_pagan
+				duration = -1
+			}
+		}
+		#zande_pagan cleansing
+		if = {
+			limit = {
+				NOT = { religion = zande_pagan }
+				has_province_modifier = province_zande_pagan
+			}
+			remove_province_modifier = province_zande_pagan
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#zor_angra flagging
+		if = {
+			limit = {
+				religion = zor_angra
+				NOT = { has_province_modifier = province_zor_angra }
+			}
+			add_province_modifier = {
+				name = province_zor_angra
+				duration = -1
+			}
+		}
+		#zor_angra cleansing
+		if = {
+			limit = {
+				NOT = { religion = zor_angra }
+				has_province_modifier = province_zor_angra
+			}
+			remove_province_modifier = province_zor_angra
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#zor_hindu flagging
+		if = {
+			limit = {
+				religion = zor_hindu
+				NOT = { has_province_modifier = province_zor_hindu }
+			}
+			add_province_modifier = {
+				name = province_zor_hindu
+				duration = -1
+			}
+		}
+		#zor_hindu cleansing
+		if = {
+			limit = {
+				NOT = { religion = zor_hindu }
+				has_province_modifier = province_zor_hindu
+			}
+			remove_province_modifier = province_zor_hindu
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#zoroastrian flagging
+		if = {
+			limit = {
+				religion = zoroastrian
+				NOT = { has_province_modifier = province_zoroastrian }
+			}
+			add_province_modifier = {
+				name = province_zoroastrian
+				duration = -1
+			}
+		}
+		#zoroastrian cleansing
+		if = {
+			limit = {
+				NOT = { religion = zoroastrian }
+				has_province_modifier = province_zoroastrian
+			}
+			remove_province_modifier = province_zoroastrian
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#zulu_pagan flagging
+		if = {
+			limit = {
+				religion = zulu_pagan
+				NOT = { has_province_modifier = province_zulu_pagan }
+			}
+			add_province_modifier = {
+				name = province_zulu_pagan
+				duration = -1
+			}
+		}
+		#zulu_pagan cleansing
+		if = {
+			limit = {
+				NOT = { religion = zulu_pagan }
+				has_province_modifier = province_zulu_pagan
+			}
+			remove_province_modifier = province_zulu_pagan
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#zurvanism flagging
+		if = {
+			limit = {
+				religion = zurvanism
+				NOT = { has_province_modifier = province_zurvanism }
+			}
+			add_province_modifier = {
+				name = province_zurvanism
+				duration = -1
+			}
+		}
+		#zurvanism cleansing
+		if = {
+			limit = {
+				NOT = { religion = zurvanism }
+				has_province_modifier = province_zurvanism
+			}
+			remove_province_modifier = province_zurvanism
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#vedantic flagging
+		if = {
+			limit = {
+				religion = zz01_vedanta
+				NOT = { has_province_modifier = province_zz01_vedanta }
+			}
+			add_province_modifier = {
+				name = province_zz01_vedanta
+				duration = -1
+			}
+		}
+		#vedantic cleansing
+		if = {
+			limit = {
+				NOT = { religion = zz01_vedanta }
+				has_province_modifier = province_zz01_vedanta
+			}
+			remove_province_modifier = province_zz01_vedanta
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#ahriman_reformed flagging
+		if = {
+			limit = {
+				religion = ahriman_reformed
+				NOT = { has_province_modifier = province_ahriman_reformed }
+			}
+			add_province_modifier = {
+				name = province_ahriman_reformed
+				duration = -1
+			}
+		}
+		#ahriman_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = ahriman_reformed }
+				has_province_modifier = province_ahriman_reformed
+			}
+			remove_province_modifier = province_ahriman_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#amun_reformed flagging
+		if = {
+			limit = {
+				religion = amun_reformed
+				NOT = { has_province_modifier = province_amun_reformed }
+			}
+			add_province_modifier = {
+				name = province_amun_reformed
+				duration = -1
+			}
+		}
+		#amun_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = amun_reformed }
+				has_province_modifier = province_amun_reformed
+			}
+			remove_province_modifier = province_amun_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#arab_pagan_reformed flagging
+		if = {
+			limit = {
+				religion = arab_pagan_reformed
+				NOT = { has_province_modifier = province_arab_pagan_reformed }
+			}
+			add_province_modifier = {
+				name = province_arab_pagan_reformed
+				duration = -1
+			}
+		}
+		#arab_pagan_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = arab_pagan_reformed }
+				has_province_modifier = province_arab_pagan_reformed
+			}
+			remove_province_modifier = province_arab_pagan_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#aten_reformed flagging
+		if = {
+			limit = {
+				religion = aten_reformed
+				NOT = { has_province_modifier = province_aten_reformed }
+			}
+			add_province_modifier = {
+				name = province_aten_reformed
+				duration = -1
+			}
+		}
+		#aten_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = aten_reformed }
+				has_province_modifier = province_aten_reformed
+			}
+			remove_province_modifier = province_aten_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#baal_monotheistic_reformed flagging
+		if = {
+			limit = {
+				religion = baal_monotheistic_reformed
+				NOT = { has_province_modifier = province_baal_monotheistic_reformed }
+			}
+			add_province_modifier = {
+				name = province_baal_monotheistic_reformed
+				duration = -1
+			}
+		}
+		#baal_monotheistic_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = baal_monotheistic_reformed }
+				has_province_modifier = province_baal_monotheistic_reformed
+			}
+			remove_province_modifier = province_baal_monotheistic_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#baltic_pagan_reformed flagging
+		if = {
+			limit = {
+				religion = baltic_pagan_reformed
+				NOT = { has_province_modifier = province_baltic_pagan_reformed }
+			}
+			add_province_modifier = {
+				name = province_baltic_pagan_reformed
+				duration = -1
+			}
+		}
+		#baltic_pagan_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = baltic_pagan_reformed }
+				has_province_modifier = province_baltic_pagan_reformed
+			}
+			remove_province_modifier = province_baltic_pagan_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#bantu_pagan_reformed flagging
+		if = {
+			limit = {
+				religion = bantu_pagan_reformed
+				NOT = { has_province_modifier = province_bantu_pagan_reformed }
+			}
+			add_province_modifier = {
+				name = province_bantu_pagan_reformed
+				duration = -1
+			}
+		}
+		#bantu_pagan_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = bantu_pagan_reformed }
+				has_province_modifier = province_bantu_pagan_reformed
+			}
+			remove_province_modifier = province_bantu_pagan_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#berber_pagan_reformed flagging
+		if = {
+			limit = {
+				religion = berber_pagan_reformed
+				NOT = { has_province_modifier = province_berber_pagan_reformed }
+			}
+			add_province_modifier = {
+				name = province_berber_pagan_reformed
+				duration = -1
+			}
+		}
+		#berber_pagan_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = berber_pagan_reformed }
+				has_province_modifier = province_berber_pagan_reformed
+			}
+			remove_province_modifier = province_berber_pagan_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#bon_reformed flagging
+		if = {
+			limit = {
+				religion = bon_reformed
+				NOT = { has_province_modifier = province_bon_reformed }
+			}
+			add_province_modifier = {
+				name = province_bon_reformed
+				duration = -1
+			}
+		}
+		#bon_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = bon_reformed }
+				has_province_modifier = province_bon_reformed
+			}
+			remove_province_modifier = province_bon_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#bud_zen_reformed flagging
+		if = {
+			limit = {
+				religion = bud_zen_reformed
+				NOT = { has_province_modifier = province_bud_zen_reformed }
+			}
+			add_province_modifier = {
+				name = province_bud_zen_reformed
+				duration = -1
+			}
+		}
+		#bud_zen_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = bud_zen_reformed }
+				has_province_modifier = province_bud_zen_reformed
+			}
+			remove_province_modifier = province_bud_zen_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#bud_zor_reformed flagging
+		if = {
+			limit = {
+				religion = bud_zor_reformed
+				NOT = { has_province_modifier = province_bud_zor_reformed }
+			}
+			add_province_modifier = {
+				name = province_bud_zor_reformed
+				duration = -1
+			}
+		}
+		#bud_zor_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = bud_zor_reformed }
+				has_province_modifier = province_bud_zor_reformed
+			}
+			remove_province_modifier = province_bud_zor_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#cathar_reformed flagging
+		if = {
+			limit = {
+				religion = cathar_reformed
+				NOT = { has_province_modifier = province_cathar_reformed }
+			}
+			add_province_modifier = {
+				name = province_cathar_reformed
+				duration = -1
+			}
+		}
+		#cathar_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = cathar_reformed }
+				has_province_modifier = province_cathar_reformed
+			}
+			remove_province_modifier = province_cathar_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#celtic_christ_reformed flagging
+		if = {
+			limit = {
+				religion = celtic_christ_reformed
+				NOT = { has_province_modifier = province_celtic_christ_reformed }
+			}
+			add_province_modifier = {
+				name = province_celtic_christ_reformed
+				duration = -1
+			}
+		}
+		#celtic_christ_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = celtic_christ_reformed }
+				has_province_modifier = province_celtic_christ_reformed
+			}
+			remove_province_modifier = province_celtic_christ_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#celtic_pagan_reformed flagging
+		if = {
+			limit = {
+				religion = celtic_pagan_reformed
+				NOT = { has_province_modifier = province_celtic_pagan_reformed }
+			}
+			add_province_modifier = {
+				name = province_celtic_pagan_reformed
+				duration = -1
+			}
+		}
+		#celtic_pagan_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = celtic_pagan_reformed }
+				has_province_modifier = province_celtic_pagan_reformed
+			}
+			remove_province_modifier = province_celtic_pagan_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#christian_populist_reformed flagging
+		if = {
+			limit = {
+				religion = christian_populist_reformed
+				NOT = { has_province_modifier = province_christian_populist_reformed }
+			}
+			add_province_modifier = {
+				name = province_christian_populist_reformed
+				duration = -1
+			}
+		}
+		#christian_populist_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = christian_populist_reformed }
+				has_province_modifier = province_christian_populist_reformed
+			}
+			remove_province_modifier = province_christian_populist_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#chumbylat_reformed flagging
+		if = {
+			limit = {
+				religion = chumbylat_reformed
+				NOT = { has_province_modifier = province_chumbylat_reformed }
+			}
+			add_province_modifier = {
+				name = province_chumbylat_reformed
+				duration = -1
+			}
+		}
+		#chumbylat_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = chumbylat_reformed }
+				has_province_modifier = province_chumbylat_reformed
+			}
+			remove_province_modifier = province_chumbylat_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#cybele_reformed flagging
+		if = {
+			limit = {
+				religion = cybele_reformed
+				NOT = { has_province_modifier = province_cybele_reformed }
+			}
+			add_province_modifier = {
+				name = province_cybele_reformed
+				duration = -1
+			}
+		}
+		#cybele_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = cybele_reformed }
+				has_province_modifier = province_cybele_reformed
+			}
+			remove_province_modifier = province_cybele_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#druze_reformed flagging
+		if = {
+			limit = {
+				religion = druze_reformed
+				NOT = { has_province_modifier = province_druze_reformed }
+			}
+			add_province_modifier = {
+				name = province_druze_reformed
+				duration = -1
+			}
+		}
+		#druze_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = druze_reformed }
+				has_province_modifier = province_druze_reformed
+			}
+			remove_province_modifier = province_druze_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#erlik_reformed flagging
+		if = {
+			limit = {
+				religion = erlik_reformed
+				NOT = { has_province_modifier = province_erlik_reformed }
+			}
+			add_province_modifier = {
+				name = province_erlik_reformed
+				duration = -1
+			}
+		}
+		#erlik_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = erlik_reformed }
+				has_province_modifier = province_erlik_reformed
+			}
+			remove_province_modifier = province_erlik_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#ethiopian_war_reformed flagging
+		if = {
+			limit = {
+				religion = ethiopian_war_reformed
+				NOT = { has_province_modifier = province_ethiopian_war_reformed }
+			}
+			add_province_modifier = {
+				name = province_ethiopian_war_reformed
+				duration = -1
+			}
+		}
+		#ethiopian_war_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = ethiopian_war_reformed }
+				has_province_modifier = province_ethiopian_war_reformed
+			}
+			remove_province_modifier = province_ethiopian_war_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#finnish_pagan_reformed flagging
+		if = {
+			limit = {
+				religion = finnish_pagan_reformed
+				NOT = { has_province_modifier = province_finnish_pagan_reformed }
+			}
+			add_province_modifier = {
+				name = province_finnish_pagan_reformed
+				duration = -1
+			}
+		}
+		#finnish_pagan_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = finnish_pagan_reformed }
+				has_province_modifier = province_finnish_pagan_reformed
+			}
+			remove_province_modifier = province_finnish_pagan_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#german_pagan_reformed flagging
+		if = {
+			limit = {
+				religion = german_pagan_reformed
+				NOT = { has_province_modifier = province_german_pagan_reformed }
+			}
+			add_province_modifier = {
+				name = province_german_pagan_reformed
+				duration = -1
+			}
+		}
+		#german_pagan_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = german_pagan_reformed }
+				has_province_modifier = province_german_pagan_reformed
+			}
+			remove_province_modifier = province_german_pagan_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#graeco_roman_reformed flagging
+		if = {
+			limit = {
+				religion = graeco_roman_reformed
+				NOT = { has_province_modifier = province_graeco_roman_reformed }
+			}
+			add_province_modifier = {
+				name = province_graeco_roman_reformed
+				duration = -1
+			}
+		}
+		#graeco_roman_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = graeco_roman_reformed }
+				has_province_modifier = province_graeco_roman_reformed
+			}
+			remove_province_modifier = province_graeco_roman_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#iberian_pagan_reformed flagging
+		if = {
+			limit = {
+				religion = iberian_pagan_reformed
+				NOT = { has_province_modifier = province_iberian_pagan_reformed }
+			}
+			add_province_modifier = {
+				name = province_iberian_pagan_reformed
+				duration = -1
+			}
+		}
+		#iberian_pagan_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = iberian_pagan_reformed }
+				has_province_modifier = province_iberian_pagan_reformed
+			}
+			remove_province_modifier = province_iberian_pagan_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#illuyanka_reformed flagging
+		if = {
+			limit = {
+				religion = illuyanka_reformed
+				NOT = { has_province_modifier = province_illuyanka_reformed }
+			}
+			add_province_modifier = {
+				name = province_illuyanka_reformed
+				duration = -1
+			}
+		}
+		#illuyanka_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = illuyanka_reformed }
+				has_province_modifier = province_illuyanka_reformed
+			}
+			remove_province_modifier = province_illuyanka_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#indohelen_reformed flagging
+		if = {
+			limit = {
+				religion = indohelen_reformed
+				NOT = { has_province_modifier = province_indohelen_reformed }
+			}
+			add_province_modifier = {
+				name = province_indohelen_reformed
+				duration = -1
+			}
+		}
+		#indohelen_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = indohelen_reformed }
+				has_province_modifier = province_indohelen_reformed
+			}
+			remove_province_modifier = province_indohelen_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#inuit_pagan_reformed flagging
+		if = {
+			limit = {
+				religion = inuit_pagan_reformed
+				NOT = { has_province_modifier = province_inuit_pagan_reformed }
+			}
+			add_province_modifier = {
+				name = province_inuit_pagan_reformed
+				duration = -1
+			}
+		}
+		#inuit_pagan_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = inuit_pagan_reformed }
+				has_province_modifier = province_inuit_pagan_reformed
+			}
+			remove_province_modifier = province_inuit_pagan_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#isis_reformed flagging
+		if = {
+			limit = {
+				religion = isis_reformed
+				NOT = { has_province_modifier = province_isis_reformed }
+			}
+			add_province_modifier = {
+				name = province_isis_reformed
+				duration = -1
+			}
+		}
+		#isis_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = isis_reformed }
+				has_province_modifier = province_isis_reformed
+			}
+			remove_province_modifier = province_isis_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#jud_ark_reformed flagging
+		if = {
+			limit = {
+				religion = jud_ark_reformed
+				NOT = { has_province_modifier = province_jud_ark_reformed }
+			}
+			add_province_modifier = {
+				name = province_jud_ark_reformed
+				duration = -1
+			}
+		}
+		#jud_ark_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = jud_ark_reformed }
+				has_province_modifier = province_jud_ark_reformed
+			}
+			remove_province_modifier = province_jud_ark_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#judaism_reformed flagging
+		if = {
+			limit = {
+				religion = judaism_reformed
+				NOT = { has_province_modifier = province_judaism_reformed }
+			}
+			add_province_modifier = {
+				name = province_judaism_reformed
+				duration = -1
+			}
+		}
+		#judaism_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = judaism_reformed }
+				has_province_modifier = province_judaism_reformed
+			}
+			remove_province_modifier = province_judaism_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#kubera_reformed flagging
+		if = {
+			limit = {
+				religion = kubera_reformed
+				NOT = { has_province_modifier = province_kubera_reformed }
+			}
+			add_province_modifier = {
+				name = province_kubera_reformed
+				duration = -1
+			}
+		}
+		#kubera_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = kubera_reformed }
+				has_province_modifier = province_kubera_reformed
+			}
+			remove_province_modifier = province_kubera_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#lubu_reformed flagging
+		if = {
+			limit = {
+				religion = lubu_reformed
+				NOT = { has_province_modifier = province_lubu_reformed }
+			}
+			add_province_modifier = {
+				name = province_lubu_reformed
+				duration = -1
+			}
+		}
+		#lubu_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = lubu_reformed }
+				has_province_modifier = province_lubu_reformed
+			}
+			remove_province_modifier = province_lubu_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#mand_ruha_reformed flagging
+		if = {
+			limit = {
+				religion = mand_ruha_reformed
+				NOT = { has_province_modifier = province_mand_ruha_reformed }
+			}
+			add_province_modifier = {
+				name = province_mand_ruha_reformed
+				duration = -1
+			}
+		}
+		#mand_ruha_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = mand_ruha_reformed }
+				has_province_modifier = province_mand_ruha_reformed
+			}
+			remove_province_modifier = province_mand_ruha_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#mandaean_reformed flagging
+		if = {
+			limit = {
+				religion = mandaean_reformed
+				NOT = { has_province_modifier = province_mandaean_reformed }
+			}
+			add_province_modifier = {
+				name = province_mandaean_reformed
+				duration = -1
+			}
+		}
+		#mandaean_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = mandaean_reformed }
+				has_province_modifier = province_mandaean_reformed
+			}
+			remove_province_modifier = province_mandaean_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#mani_germanic_reformed flagging
+		if = {
+			limit = {
+				religion = mani_germanic_reformed
+				NOT = { has_province_modifier = province_mani_germanic_reformed }
+			}
+			add_province_modifier = {
+				name = province_mani_germanic_reformed
+				duration = -1
+			}
+		}
+		#mani_germanic_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = mani_germanic_reformed }
+				has_province_modifier = province_mani_germanic_reformed
+			}
+			remove_province_modifier = province_mani_germanic_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#mani_slavic_reformed flagging
+		if = {
+			limit = {
+				religion = mani_slavic_reformed
+				NOT = { has_province_modifier = province_mani_slavic_reformed }
+			}
+			add_province_modifier = {
+				name = province_mani_slavic_reformed
+				duration = -1
+			}
+		}
+		#mani_slavic_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = mani_slavic_reformed }
+				has_province_modifier = province_mani_slavic_reformed
+			}
+			remove_province_modifier = province_mani_slavic_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#mari_christ_reformed flagging
+		if = {
+			limit = {
+				religion = mari_christ_reformed
+				NOT = { has_province_modifier = province_mari_christ_reformed }
+			}
+			add_province_modifier = {
+				name = province_mari_christ_reformed
+				duration = -1
+			}
+		}
+		#mari_christ_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = mari_christ_reformed }
+				has_province_modifier = province_mari_christ_reformed
+			}
+			remove_province_modifier = province_mari_christ_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#mazdakism_reformed flagging
+		if = {
+			limit = {
+				religion = mazdakism_reformed
+				NOT = { has_province_modifier = province_mazdakism_reformed }
+			}
+			add_province_modifier = {
+				name = province_mazdakism_reformed
+				duration = -1
+			}
+		}
+		#mazdakism_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = mazdakism_reformed }
+				has_province_modifier = province_mazdakism_reformed
+			}
+			remove_province_modifier = province_mazdakism_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#montanist_reformed flagging
+		if = {
+			limit = {
+				religion = montanist_reformed
+				NOT = { has_province_modifier = province_montanist_reformed }
+			}
+			add_province_modifier = {
+				name = province_montanist_reformed
+				duration = -1
+			}
+		}
+		#montanist_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = montanist_reformed }
+				has_province_modifier = province_montanist_reformed
+			}
+			remove_province_modifier = province_montanist_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#murugan_reformed flagging
+		if = {
+			limit = {
+				religion = murugan_reformed
+				NOT = { has_province_modifier = province_murugan_reformed }
+			}
+			add_province_modifier = {
+				name = province_murugan_reformed
+				duration = -1
+			}
+		}
+		#murugan_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = murugan_reformed }
+				has_province_modifier = province_murugan_reformed
+			}
+			remove_province_modifier = province_murugan_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#muslim_aliite_reformed flagging
+		if = {
+			limit = {
+				religion = muslim_aliite_reformed
+				NOT = { has_province_modifier = province_muslim_aliite_reformed }
+			}
+			add_province_modifier = {
+				name = province_muslim_aliite_reformed
+				duration = -1
+			}
+		}
+		#muslim_aliite_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = muslim_aliite_reformed }
+				has_province_modifier = province_muslim_aliite_reformed
+			}
+			remove_province_modifier = province_muslim_aliite_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#muslim_domination_reformed flagging
+		if = {
+			limit = {
+				religion = muslim_domination_reformed
+				NOT = { has_province_modifier = province_muslim_domination_reformed }
+			}
+			add_province_modifier = {
+				name = province_muslim_domination_reformed
+				duration = -1
+			}
+		}
+		#muslim_domination_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = muslim_domination_reformed }
+				has_province_modifier = province_muslim_domination_reformed
+			}
+			remove_province_modifier = province_muslim_domination_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#muslim_sufi_reformed flagging
+		if = {
+			limit = {
+				religion = muslim_sufi_reformed
+				NOT = { has_province_modifier = province_muslim_sufi_reformed }
+			}
+			add_province_modifier = {
+				name = province_muslim_sufi_reformed
+				duration = -1
+			}
+		}
+		#muslim_sufi_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = muslim_sufi_reformed }
+				has_province_modifier = province_muslim_sufi_reformed
+			}
+			remove_province_modifier = province_muslim_sufi_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#nasrani_reformed flagging
+		if = {
+			limit = {
+				religion = nasrani_reformed
+				NOT = { has_province_modifier = province_nasrani_reformed }
+			}
+			add_province_modifier = {
+				name = province_nasrani_reformed
+				duration = -1
+			}
+		}
+		#nasrani_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = nasrani_reformed }
+				has_province_modifier = province_nasrani_reformed
+			}
+			remove_province_modifier = province_nasrani_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#norse_christ_reformed flagging
+		if = {
+			limit = {
+				religion = norse_christ_reformed
+				NOT = { has_province_modifier = province_norse_christ_reformed }
+			}
+			add_province_modifier = {
+				name = province_norse_christ_reformed
+				duration = -1
+			}
+		}
+		#norse_christ_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = norse_christ_reformed }
+				has_province_modifier = province_norse_christ_reformed
+			}
+			remove_province_modifier = province_norse_christ_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#norse_pagan_reformed flagging
+		if = {
+			limit = {
+				religion = norse_pagan_reformed
+				NOT = { has_province_modifier = province_norse_pagan_reformed }
+			}
+			add_province_modifier = {
+				name = province_norse_pagan_reformed
+				duration = -1
+			}
+		}
+		#norse_pagan_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = norse_pagan_reformed }
+				has_province_modifier = province_norse_pagan_reformed
+			}
+			remove_province_modifier = province_norse_pagan_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#northern_sun_reformed flagging
+		if = {
+			limit = {
+				religion = northern_sun_reformed
+				NOT = { has_province_modifier = province_northern_sun_reformed }
+			}
+			add_province_modifier = {
+				name = province_northern_sun_reformed
+				duration = -1
+			}
+		}
+		#northern_sun_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = northern_sun_reformed }
+				has_province_modifier = province_northern_sun_reformed
+			}
+			remove_province_modifier = province_northern_sun_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#nyakalagan_reformed flagging
+		if = {
+			limit = {
+				religion = nyakalagan_reformed
+				NOT = { has_province_modifier = province_nyakalagan_reformed }
+			}
+			add_province_modifier = {
+				name = province_nyakalagan_reformed
+				duration = -1
+			}
+		}
+		#nyakalagan_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = nyakalagan_reformed }
+				has_province_modifier = province_nyakalagan_reformed
+			}
+			remove_province_modifier = province_nyakalagan_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#priscillian_reformed flagging
+		if = {
+			limit = {
+				religion = priscillian_reformed
+				NOT = { has_province_modifier = province_priscillian_reformed }
+			}
+			add_province_modifier = {
+				name = province_priscillian_reformed
+				duration = -1
+			}
+		}
+		#priscillian_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = priscillian_reformed }
+				has_province_modifier = province_priscillian_reformed
+			}
+			remove_province_modifier = province_priscillian_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#ragnarok_reformed flagging
+		if = {
+			limit = {
+				religion = ragnarok_reformed
+				NOT = { has_province_modifier = province_ragnarok_reformed }
+			}
+			add_province_modifier = {
+				name = province_ragnarok_reformed
+				duration = -1
+			}
+		}
+		#ragnarok_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = ragnarok_reformed }
+				has_province_modifier = province_ragnarok_reformed
+			}
+			remove_province_modifier = province_ragnarok_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#saura_reformed flagging
+		if = {
+			limit = {
+				religion = saura_reformed
+				NOT = { has_province_modifier = province_saura_reformed }
+			}
+			add_province_modifier = {
+				name = province_saura_reformed
+				duration = -1
+			}
+		}
+		#saura_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = saura_reformed }
+				has_province_modifier = province_saura_reformed
+			}
+			remove_province_modifier = province_saura_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#serer_reformed flagging
+		if = {
+			limit = {
+				religion = serer_reformed
+				NOT = { has_province_modifier = province_serer_reformed }
+			}
+			add_province_modifier = {
+				name = province_serer_reformed
+				duration = -1
+			}
+		}
+		#serer_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = serer_reformed }
+				has_province_modifier = province_serer_reformed
+			}
+			remove_province_modifier = province_serer_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#set_reformed flagging
+		if = {
+			limit = {
+				religion = set_reformed
+				NOT = { has_province_modifier = province_set_reformed }
+			}
+			add_province_modifier = {
+				name = province_set_reformed
+				duration = -1
+			}
+		}
+		#set_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = set_reformed }
+				has_province_modifier = province_set_reformed
+			}
+			remove_province_modifier = province_set_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#sethian_reformed flagging
+		if = {
+			limit = {
+				religion = sethian_reformed
+				NOT = { has_province_modifier = province_sethian_reformed }
+			}
+			add_province_modifier = {
+				name = province_sethian_reformed
+				duration = -1
+			}
+		}
+		#sethian_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = sethian_reformed }
+				has_province_modifier = province_sethian_reformed
+			}
+			remove_province_modifier = province_sethian_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#slavic_christian_reformed flagging
+		if = {
+			limit = {
+				religion = slavic_christian_reformed
+				NOT = { has_province_modifier = province_slavic_christian_reformed }
+			}
+			add_province_modifier = {
+				name = province_slavic_christian_reformed
+				duration = -1
+			}
+		}
+		#slavic_christian_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = slavic_christian_reformed }
+				has_province_modifier = province_slavic_christian_reformed
+			}
+			remove_province_modifier = province_slavic_christian_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#slavic_pagan_reformed flagging
+		if = {
+			limit = {
+				religion = slavic_pagan_reformed
+				NOT = { has_province_modifier = province_slavic_pagan_reformed }
+			}
+			add_province_modifier = {
+				name = province_slavic_pagan_reformed
+				duration = -1
+			}
+		}
+		#slavic_pagan_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = slavic_pagan_reformed }
+				has_province_modifier = province_slavic_pagan_reformed
+			}
+			remove_province_modifier = province_slavic_pagan_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#sol_boreas_reformed flagging
+		if = {
+			limit = {
+				religion = sol_boreas_reformed
+				NOT = { has_province_modifier = province_sol_boreas_reformed }
+			}
+			add_province_modifier = {
+				name = province_sol_boreas_reformed
+				duration = -1
+			}
+		}
+		#sol_boreas_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = sol_boreas_reformed }
+				has_province_modifier = province_sol_boreas_reformed
+			}
+			remove_province_modifier = province_sol_boreas_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#sol_islam_reformed flagging
+		if = {
+			limit = {
+				religion = sol_islam_reformed
+				NOT = { has_province_modifier = province_sol_islam_reformed }
+			}
+			add_province_modifier = {
+				name = province_sol_islam_reformed
+				duration = -1
+			}
+		}
+		#sol_islam_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = sol_islam_reformed }
+				has_province_modifier = province_sol_islam_reformed
+			}
+			remove_province_modifier = province_sol_islam_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#sol_sahara_reformed flagging
+		if = {
+			limit = {
+				religion = sol_sahara_reformed
+				NOT = { has_province_modifier = province_sol_sahara_reformed }
+			}
+			add_province_modifier = {
+				name = province_sol_sahara_reformed
+				duration = -1
+			}
+		}
+		#sol_sahara_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = sol_sahara_reformed }
+				has_province_modifier = province_sol_sahara_reformed
+			}
+			remove_province_modifier = province_sol_sahara_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#tao_reformed flagging
+		if = {
+			limit = {
+				religion = tao_reformed
+				NOT = { has_province_modifier = province_tao_reformed }
+			}
+			add_province_modifier = {
+				name = province_tao_reformed
+				duration = -1
+			}
+		}
+		#tao_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = tao_reformed }
+				has_province_modifier = province_tao_reformed
+			}
+			remove_province_modifier = province_tao_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#tarhunt_reformed flagging
+		if = {
+			limit = {
+				religion = tarhunt_reformed
+				NOT = { has_province_modifier = province_tarhunt_reformed }
+			}
+			add_province_modifier = {
+				name = province_tarhunt_reformed
+				duration = -1
+			}
+		}
+		#tarhunt_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = tarhunt_reformed }
+				has_province_modifier = province_tarhunt_reformed
+			}
+			remove_province_modifier = province_tarhunt_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#teiwaz_reformed flagging
+		if = {
+			limit = {
+				religion = teiwaz_reformed
+				NOT = { has_province_modifier = province_teiwaz_reformed }
+			}
+			add_province_modifier = {
+				name = province_teiwaz_reformed
+				duration = -1
+			}
+		}
+		#teiwaz_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = teiwaz_reformed }
+				has_province_modifier = province_teiwaz_reformed
+			}
+			remove_province_modifier = province_teiwaz_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#tengri_bud_reformed flagging
+		if = {
+			limit = {
+				religion = tengri_bud_reformed
+				NOT = { has_province_modifier = province_tengri_bud_reformed }
+			}
+			add_province_modifier = {
+				name = province_tengri_bud_reformed
+				duration = -1
+			}
+		}
+		#tengri_bud_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = tengri_bud_reformed }
+				has_province_modifier = province_tengri_bud_reformed
+			}
+			remove_province_modifier = province_tengri_bud_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#tengri_confucian_reformed flagging
+		if = {
+			limit = {
+				religion = tengri_confucian_reformed
+				NOT = { has_province_modifier = province_tengri_confucian_reformed }
+			}
+			add_province_modifier = {
+				name = province_tengri_confucian_reformed
+				duration = -1
+			}
+		}
+		#tengri_confucian_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = tengri_confucian_reformed }
+				has_province_modifier = province_tengri_confucian_reformed
+			}
+			remove_province_modifier = province_tengri_confucian_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#tengri_mani_reformed flagging
+		if = {
+			limit = {
+				religion = tengri_mani_reformed
+				NOT = { has_province_modifier = province_tengri_mani_reformed }
+			}
+			add_province_modifier = {
+				name = province_tengri_mani_reformed
+				duration = -1
+			}
+		}
+		#tengri_mani_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = tengri_mani_reformed }
+				has_province_modifier = province_tengri_mani_reformed
+			}
+			remove_province_modifier = province_tengri_mani_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#tengri_pagan_reformed flagging
+		if = {
+			limit = {
+				religion = tengri_pagan_reformed
+				NOT = { has_province_modifier = province_tengri_pagan_reformed }
+			}
+			add_province_modifier = {
+				name = province_tengri_pagan_reformed
+				duration = -1
+			}
+		}
+		#tengri_pagan_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = tengri_pagan_reformed }
+				has_province_modifier = province_tengri_pagan_reformed
+			}
+			remove_province_modifier = province_tengri_pagan_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#tengri_rod_reformed flagging
+		if = {
+			limit = {
+				religion = tengri_rod_reformed
+				NOT = { has_province_modifier = province_tengri_rod_reformed }
+			}
+			add_province_modifier = {
+				name = province_tengri_rod_reformed
+				duration = -1
+			}
+		}
+		#tengri_rod_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = tengri_rod_reformed }
+				has_province_modifier = province_tengri_rod_reformed
+			}
+			remove_province_modifier = province_tengri_rod_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#vattisenyaly_reformed flagging
+		if = {
+			limit = {
+				religion = vattisenyaly_reformed
+				NOT = { has_province_modifier = province_vattisenyaly_reformed }
+			}
+			add_province_modifier = {
+				name = province_vattisenyaly_reformed
+				duration = -1
+			}
+		}
+		#vattisenyaly_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = vattisenyaly_reformed }
+				has_province_modifier = province_vattisenyaly_reformed
+			}
+			remove_province_modifier = province_vattisenyaly_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#vidharma_reformed flagging
+		if = {
+			limit = {
+				religion = vidharma_reformed
+				NOT = { has_province_modifier = province_vidharma_reformed }
+			}
+			add_province_modifier = {
+				name = province_vidharma_reformed
+				duration = -1
+			}
+		}
+		#vidharma_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = vidharma_reformed }
+				has_province_modifier = province_vidharma_reformed
+			}
+			remove_province_modifier = province_vidharma_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#voipel_reformed flagging
+		if = {
+			limit = {
+				religion = voipel_reformed
+				NOT = { has_province_modifier = province_voipel_reformed }
+			}
+			add_province_modifier = {
+				name = province_voipel_reformed
+				duration = -1
+			}
+		}
+		#voipel_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = voipel_reformed }
+				has_province_modifier = province_voipel_reformed
+			}
+			remove_province_modifier = province_voipel_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#yazdanism_reformed flagging
+		if = {
+			limit = {
+				religion = yazdanism_reformed
+				NOT = { has_province_modifier = province_yazdanism_reformed }
+			}
+			add_province_modifier = {
+				name = province_yazdanism_reformed
+				duration = -1
+			}
+		}
+		#yazdanism_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = yazdanism_reformed }
+				has_province_modifier = province_yazdanism_reformed
+			}
+			remove_province_modifier = province_yazdanism_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#zande_pagan_reformed flagging
+		if = {
+			limit = {
+				religion = zande_pagan_reformed
+				NOT = { has_province_modifier = province_zande_pagan_reformed }
+			}
+			add_province_modifier = {
+				name = province_zande_pagan_reformed
+				duration = -1
+			}
+		}
+		#zande_pagan_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = zande_pagan_reformed }
+				has_province_modifier = province_zande_pagan_reformed
+			}
+			remove_province_modifier = province_zande_pagan_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#zor_angra_reformed flagging
+		if = {
+			limit = {
+				religion = zor_angra_reformed
+				NOT = { has_province_modifier = province_zor_angra_reformed }
+			}
+			add_province_modifier = {
+				name = province_zor_angra_reformed
+				duration = -1
+			}
+		}
+		#zor_angra_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = zor_angra_reformed }
+				has_province_modifier = province_zor_angra_reformed
+			}
+			remove_province_modifier = province_zor_angra_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#zulu_pagan_reformed flagging
+		if = {
+			limit = {
+				religion = zulu_pagan_reformed
+				NOT = { has_province_modifier = province_zulu_pagan_reformed }
+			}
+			add_province_modifier = {
+				name = province_zulu_pagan_reformed
+				duration = -1
+			}
+		}
+		#zulu_pagan_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = zulu_pagan_reformed }
+				has_province_modifier = province_zulu_pagan_reformed
+			}
+			remove_province_modifier = province_zulu_pagan_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#zurvanism_reformed flagging
+		if = {
+			limit = {
+				religion = zurvanism_reformed
+				NOT = { has_province_modifier = province_zurvanism_reformed }
+			}
+			add_province_modifier = {
+				name = province_zurvanism_reformed
+				duration = -1
+			}
+		}
+		#zurvanism_reformed cleansing
+		if = {
+			limit = {
+				NOT = { religion = zurvanism_reformed }
+				has_province_modifier = province_zurvanism_reformed
+			}
+			remove_province_modifier = province_zurvanism_reformed
+			add_province_modifier = {
+				name = province_conversion
+				duration = 9125
+			}
+		}
+		#shaytana flagging
+#		if = {
+#			limit = {
+#				religion = shaytana
+#				NOT = { has_province_modifier = province_shaytana }
+#			}
+#			add_province_modifier = {
+#				name = province_shaytana
+#				duration = -1
+#			}
+#		}
+		#shaytana cleansing
+#		if = {
+#			limit = {
+#				NOT = { religion = shaytana }
+#				has_province_modifier = province_shaytana
+#			}
+#			remove_province_modifier = province_shaytana
+#			add_province_modifier = {
+#				name = province_conversion
+#				duration = 9125
+#			}
+#		}
+	}
+}
+
+# Populist Liberation
+namespace = populist_liberation
+character_event = {
+	id = populist_liberation.1
+	hide_window = yes # not supposed to be playable
+
+	only_rulers = yes
+	
+	trigger = {
+		has_character_flag = liberation_ruler
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	immediate = {
+		clr_character_flag = liberation_ruler
+		capital_scope = {
+			holder_scope = {
+				spawn_unit = {
+					province = PREV
+					home = PREV
+					owner = THIS
+					leader = THIS
+					troops = {
+						archers = { 120 120 }
+						light_infantry = { 450 450 }
+						heavy_infantry = { 20 20 }
+						light_cavalry = { 10 10 }
+					}
+					attrition = 0.25
+					maintenance_multiplier = 0.1
+				}
+
+			}
+		}
+	}
+}

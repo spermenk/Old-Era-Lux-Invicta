@@ -1,0 +1,137 @@
+clanic_defense_0 = {
+	global_levy_size = 1
+	levy_reinforce_rate = 1
+	tribal_tax_modifier = 1
+	land_morale = 1
+	land_organisation = 1
+	tribal_opinion = 30
+	global_revolt_risk = -0.3
+	monthly_character_prestige = 2
+	
+	icon = 13
+}
+
+clanic_defense_1 = {
+	global_levy_size = 0.5
+	levy_reinforce_rate = 0.5
+	tribal_tax_modifier = 0.5
+	land_morale = 0.5
+	land_organisation = 0.5
+	global_revolt_risk = -0.2
+	monthly_character_prestige = 1
+	
+	icon = 13
+}
+
+clanic_defense_2 = {
+	global_levy_size = 0.2
+	levy_reinforce_rate = 0.2
+	tribal_tax_modifier = 0.2
+	land_morale = 0.2
+	land_organisation = 0.2
+	global_revolt_risk = -0.1
+	monthly_character_prestige = 0.5
+	
+	icon = 13
+}
+
+clanic_defense_90 = {
+	tribal_opinion = 15
+	
+	icon = 13
+}
+
+clanic_defense_91 = {
+	tribal_opinion = 10
+	
+	icon = 13
+}
+
+clanic_defense_92 = {
+	tribal_opinion = 5
+	
+	icon = 13
+}
+
+### Clanic Disposition Province modifiers
+
+clanic_martial_disposition_province_2 = {
+
+	levy_size = 0.2
+	garrison_size = 0.4
+	local_tax_modifier = 0.1
+	
+	icon = 13
+}
+
+clanic_martial_disposition_province_3 = {
+
+	levy_size = 0.5
+	garrison_size = 1
+	local_tax_modifier = 0.2
+
+	icon = 13
+}
+
+clanic_martial_disposition_province_4 = {
+
+	levy_size = 1
+	garrison_size = 2
+	local_tax_modifier = 0.5
+
+	icon = 13
+}
+
+clanic_mercantile_disposition_province_2 = {
+
+	local_tax_modifier = 0.2
+	local_build_cost_modifier = -0.1
+
+	icon = 6
+}
+
+clanic_mercantile_disposition_province_3 = {
+
+	local_tax_modifier = 0.5
+	local_build_cost_modifier = -0.2
+
+	icon = 6
+}
+
+clanic_mercantile_disposition_province_4 = {
+
+	local_tax_modifier = 1
+	local_build_cost_modifier = -0.5
+
+	icon = 6
+}
+
+clanic_clerical_disposition_province_2 = {
+
+	siege_defence = 0.2
+	local_revolt_risk = -0.01
+	add_piety_modifier = 0.01
+	tech_growth_modifier = 0.1
+	
+	icon = 15
+}
+
+clanic_clerical_disposition_province_3 = {
+
+	siege_defence = 0.5
+	local_revolt_risk = -0.02
+	add_piety_modifier = 0.02
+	tech_growth_modifier = 0.2
+
+	icon = 15
+}
+
+clanic_clerical_disposition_province_4 = {
+
+	siege_defence = 1
+	local_revolt_risk = -0.05
+	add_piety_modifier = 0.05
+	tech_growth_modifier = 0.5
+
+	icon = 15
+}
