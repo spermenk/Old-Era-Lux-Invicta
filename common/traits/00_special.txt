@@ -1,0 +1,759 @@
+adventurer = {
+	customizer = no
+	random = no
+
+	martial = 1
+	diplomacy = -1
+	combat_rating = 10 # old value: 1
+	global_levy_size = 0.2
+	max_manpower_mult = 0.1
+
+	same_opinion = 10
+
+	ai_ambition = 40
+
+	male_insult = INSULT_UPSTART
+	female_insult = INSULT_UPSTART
+	child_insult = INSULT_PEABRAIN
+	male_insult_adj = INSULT_GRABBING
+	female_insult_adj = INSULT_GRABBING
+	child_insult_adj = INSULT_CRUMMY
+	male_compliment = COMPL_CONQUEROR
+	female_compliment = COMPL_CONQUEROR
+	male_compliment_adj = COMPL_AUDACIOUS
+	female_compliment_adj = COMPL_AUDACIOUS
+}
+
+diplomat_1 = {
+	diplomacy = 2
+	monthly_character_prestige = 0.1
+	opposites =  {
+		steward_1
+		steward_2
+		steward_3
+		steward_4
+		#diplomat_1
+		diplomat_2
+		diplomat_3
+		diplomat_4
+		marshal_1
+		marshal_2
+		marshal_3
+		marshal_4
+		priest_1
+		priest_2
+		priest_3
+		priest_4
+		spymaster_1
+		spymaster_2
+		spymaster_3
+		spymaster_4
+	}
+
+	customizer = no
+	random = no
+}
+diplomat_2 = {
+	diplomacy = 4
+	monthly_character_prestige = 0.25
+	opposites =  {
+		steward_1
+		steward_2
+		steward_3
+		steward_4
+		diplomat_1
+		#diplomat_2
+		diplomat_3
+		diplomat_4
+		marshal_1
+		marshal_2
+		marshal_3
+		marshal_4
+		priest_1
+		priest_2
+		priest_3
+		priest_4
+		spymaster_1
+		spymaster_2
+		spymaster_3
+		spymaster_4
+	}
+
+	customizer = no
+	random = no
+}
+diplomat_3 = {
+	diplomacy = 6
+	monthly_character_prestige = 0.5
+	opposites =  {
+		steward_1
+		steward_2
+		steward_3
+		steward_4
+		diplomat_1
+		diplomat_2
+		#diplomat_3
+		diplomat_4
+		marshal_1
+		marshal_2
+		marshal_3
+		marshal_4
+		priest_1
+		priest_2
+		priest_3
+		priest_4
+		spymaster_1
+		spymaster_2
+		spymaster_3
+		spymaster_4
+	}
+
+	customizer = no
+	random = no
+}
+diplomat_4 = {
+	diplomacy = 8
+	monthly_character_prestige = 1
+	opposites =  {
+		steward_1
+		steward_2
+		steward_3
+		steward_4
+		diplomat_1
+		diplomat_2
+		diplomat_3
+		#diplomat_4
+		marshal_1
+		marshal_2
+		marshal_3
+		marshal_4
+		priest_1
+		priest_2
+		priest_3
+		priest_4
+		spymaster_1
+		spymaster_2
+		spymaster_3
+		spymaster_4
+	}
+
+	customizer = no
+	random = no
+}
+######
+steward_1 = {
+	stewardship = 2
+	monthly_character_prestige = 0.1
+	opposites =  {
+		#steward_1
+		steward_2
+		steward_3
+		steward_4
+		diplomat_1
+		diplomat_2
+		diplomat_3
+		diplomat_4
+		marshal_1
+		marshal_2
+		marshal_3
+		marshal_4
+		priest_1
+		priest_2
+		priest_3
+		priest_4
+		spymaster_1
+		spymaster_2
+		spymaster_3
+		spymaster_4
+	}
+
+	customizer = no
+	random = no
+}
+steward_2 = {
+	stewardship = 4
+	monthly_character_prestige = 0.25
+	opposites =  {
+		steward_1
+		#steward_2
+		steward_3
+		steward_4
+		diplomat_1
+		diplomat_2
+		diplomat_3
+		diplomat_4
+		marshal_1
+		marshal_2
+		marshal_3
+		marshal_4
+		priest_1
+		priest_2
+		priest_3
+		priest_4
+		spymaster_1
+		spymaster_2
+		spymaster_3
+		spymaster_4
+	}
+
+	customizer = no
+	random = no
+}
+steward_3 = {
+	stewardship = 6
+	monthly_character_prestige = 0.5
+	opposites =  {
+		steward_1
+		steward_2
+		#steward_3
+		steward_4
+		diplomat_1
+		diplomat_2
+		diplomat_3
+		diplomat_4
+		marshal_1
+		marshal_2
+		marshal_3
+		marshal_4
+		priest_1
+		priest_2
+		priest_3
+		priest_4
+		spymaster_1
+		spymaster_2
+		spymaster_3
+		spymaster_4
+	}
+
+	customizer = no
+	random = no
+}
+steward_4 = {
+	stewardship = 8
+	monthly_character_prestige = 1
+	opposites =  {
+		steward_1
+		steward_2
+		steward_3
+		#steward_4
+		diplomat_1
+		diplomat_2
+		diplomat_3
+		diplomat_4
+		marshal_1
+		marshal_2
+		marshal_3
+		marshal_4
+		priest_1
+		priest_2
+		priest_3
+		priest_4
+		spymaster_1
+		spymaster_2
+		spymaster_3
+		spymaster_4
+	}
+
+	customizer = no
+	random = no
+}
+
+######
+marshal_1 = {
+	martial = 2
+	monthly_character_prestige = 0.1
+	opposites =  {
+		steward_1
+		steward_2
+		steward_3
+		steward_4
+		diplomat_1
+		diplomat_2
+		diplomat_3
+		diplomat_4
+		#marshal_1
+		marshal_2
+		marshal_3
+		marshal_4
+		priest_1
+		priest_2
+		priest_3
+		priest_4
+		spymaster_1
+		spymaster_2
+		spymaster_3
+		spymaster_4
+	}
+
+	customizer = no
+	random = no
+}
+marshal_2 = {
+	martial = 4
+	monthly_character_prestige = 0.25
+	opposites =  {
+		steward_1
+		steward_2
+		steward_3
+		steward_4
+		diplomat_1
+		diplomat_2
+		diplomat_3
+		diplomat_4
+		marshal_1
+		#marshal_2
+		marshal_3
+		marshal_4
+		priest_1
+		priest_2
+		priest_3
+		priest_4
+		spymaster_1
+		spymaster_2
+		spymaster_3
+		spymaster_4
+	}
+
+	customizer = no
+	random = no
+}
+marshal_3 = {
+	martial = 6
+	monthly_character_prestige = 0.5
+	opposites =  {
+		steward_1
+		steward_2
+		steward_3
+		steward_4
+		diplomat_1
+		diplomat_2
+		diplomat_3
+		diplomat_4
+		marshal_1
+		marshal_2
+		#marshal_3
+		marshal_4
+		priest_1
+		priest_2
+		priest_3
+		priest_4
+		spymaster_1
+		spymaster_2
+		spymaster_3
+		spymaster_4
+	}
+
+	customizer = no
+	random = no
+}
+marshal_4 = {
+	martial = 8
+	monthly_character_prestige = 1
+	opposites =  {
+		steward_1
+		steward_2
+		steward_3
+		steward_4
+		diplomat_1
+		diplomat_2
+		diplomat_3
+		diplomat_4
+		marshal_1
+		marshal_2
+		marshal_3
+		#marshal_4
+		priest_1
+		priest_2
+		priest_3
+		priest_4
+		spymaster_1
+		spymaster_2
+		spymaster_3
+		spymaster_4
+	}
+
+	customizer = no
+	random = no
+}
+
+######
+priest_1 = {
+	learning = 2
+	monthly_character_prestige = 0.1
+	opposites =  {
+		steward_1
+		steward_2
+		steward_3
+		steward_4
+		diplomat_1
+		diplomat_2
+		diplomat_3
+		diplomat_4
+		marshal_1
+		marshal_2
+		marshal_3
+		marshal_4
+		#priest_1
+		priest_2
+		priest_3
+		priest_4
+		spymaster_1
+		spymaster_2
+		spymaster_3
+		spymaster_4
+	}
+
+	customizer = no
+	random = no
+}
+priest_2 = {
+	learning = 4
+	monthly_character_prestige = 0.25
+	opposites =  {
+		steward_1
+		steward_2
+		steward_3
+		steward_4
+		diplomat_1
+		diplomat_2
+		diplomat_3
+		diplomat_4
+		marshal_1
+		marshal_2
+		marshal_3
+		marshal_4
+		#priest_1
+		priest_2
+		priest_3
+		priest_4
+		spymaster_1
+		spymaster_2
+		spymaster_3
+		spymaster_4
+	}
+
+	customizer = no
+	random = no
+}
+priest_3 = {
+	learning = 6
+	monthly_character_prestige = 0.5
+	opposites =  {
+		steward_1
+		steward_2
+		steward_3
+		steward_4
+		diplomat_1
+		diplomat_2
+		diplomat_3
+		diplomat_4
+		marshal_1
+		marshal_2
+		marshal_3
+		marshal_4
+		priest_1
+		priest_2
+		#priest_3
+		priest_4
+		spymaster_1
+		spymaster_2
+		spymaster_3
+		spymaster_4
+	}
+
+	customizer = no
+	random = no
+}
+priest_4 = {
+	learning = 8
+	monthly_character_prestige = 1
+	opposites =  {
+		steward_1
+		steward_2
+		steward_3
+		steward_4
+		diplomat_1
+		diplomat_2
+		diplomat_3
+		diplomat_4
+		marshal_1
+		marshal_2
+		marshal_3
+		marshal_4
+		priest_1
+		priest_2
+		priest_3
+		#priest_4
+		spymaster_1
+		spymaster_2
+		spymaster_3
+		spymaster_4
+	}
+
+	customizer = no
+	random = no
+}
+
+######
+spymaster_1 = {
+	intrigue = 2
+	monthly_character_prestige = 0.1
+	opposites =  {
+		steward_1
+		steward_2
+		steward_3
+		steward_4
+		diplomat_1
+		diplomat_2
+		diplomat_3
+		diplomat_4
+		marshal_1
+		marshal_2
+		marshal_3
+		marshal_4
+		priest_1
+		priest_2
+		priest_3
+		priest_4
+		#spymaster_1
+		spymaster_2
+		spymaster_3
+		spymaster_4
+	}
+
+	customizer = no
+	random = no
+}
+spymaster_2 = {
+	intrigue = 4
+	monthly_character_prestige = 0.25
+	opposites =  {
+		steward_1
+		steward_2
+		steward_3
+		steward_4
+		diplomat_1
+		diplomat_2
+		diplomat_3
+		diplomat_4
+		marshal_1
+		marshal_2
+		marshal_3
+		marshal_4
+		priest_1
+		priest_2
+		priest_3
+		priest_4
+		spymaster_1
+		#spymaster_2
+		spymaster_3
+		spymaster_4
+	}
+
+	customizer = no
+	random = no
+}
+spymaster_3 = {
+	intrigue = 6
+	monthly_character_prestige = 0.5
+	opposites =  {
+		steward_1
+		steward_2
+		steward_3
+		steward_4
+		diplomat_1
+		diplomat_2
+		diplomat_3
+		diplomat_4
+		marshal_1
+		marshal_2
+		marshal_3
+		marshal_4
+		priest_1
+		priest_2
+		priest_3
+		priest_4
+		spymaster_1
+		spymaster_2
+		#spymaster_3
+		spymaster_4
+	}
+
+	customizer = no
+	random = no
+}
+spymaster_4 = {
+	intrigue = 8
+	monthly_character_prestige = 1
+	opposites =  {
+		steward_1
+		steward_2
+		steward_3
+		steward_4
+		diplomat_1
+		diplomat_2
+		diplomat_3
+		diplomat_4
+		marshal_1
+		marshal_2
+		marshal_3
+		marshal_4
+		priest_1
+		priest_2
+		priest_3
+		priest_4
+		spymaster_1
+		spymaster_2
+		spymaster_3
+		#spymaster_4
+	}
+
+	customizer = no
+	random = no
+}
+augustus = {
+	customizer = no
+
+	monthly_character_prestige = 0.5
+	vassal_opinion = 10
+
+	male_compliment = COMPL_AUGUSTUS
+	female_compliment = COMPL_AUGUSTUS
+}
+
+cannibal = {
+	martial = 3
+	general_opinion = -10
+	combat_rating = 10 # old value: 1
+
+	same_opinion = 25
+
+	ai_rationality = -20
+	ai_honor = -10
+
+	male_insult = INSULT_CANNIBAL
+	female_insult = INSULT_CANNIBAL
+	male_insult_adj = INSULT_CANNIBALISTIC
+	female_insult_adj = INSULT_CANNIBALISTIC
+}
+
+cannot_marry = {
+	cannot_marry = yes
+	hidden = yes
+	customizer = no
+	random = no
+}
+
+child_of_consort = {
+	customizer = no
+
+	diplomacy = -1
+}
+
+child_of_consort_male = {
+	customizer = no
+
+	diplomacy = -1
+}
+
+disinherited = {
+	cannot_inherit = yes
+	hidden = yes
+	customizer = no
+	random = no
+}
+
+# Character is seen as a reincarnation of another character.
+reincarnation = {
+	customizer = no
+	random = no
+}
+
+immortal = {
+	customizer = no
+	random = no
+	
+	immortal = yes
+	health = 10
+	taoist_opinion = 25
+}
+
+in_hiding = {
+	in_hiding = yes
+	customizer = no
+	random = no
+
+	potential = {
+		prisoner = no
+	}
+
+	monthly_character_prestige = -2
+
+	diplomacy = -5
+
+	vassal_opinion = -5
+
+	male_insult = INSULT_COWARD
+	female_insult = INSULT_COWARD
+	male_insult_adj = INSULT_SNEAKING
+	female_insult_adj = INSULT_SNEAKING
+}
+
+fat = {
+	customizer = no
+	random = no
+
+	opposites = {
+		malnourished
+	}
+
+	combat_rating = -10
+	tribal_opinion = -5
+
+	ai_zeal = -20
+
+	male_insult = INSULT_FATPIG
+	female_insult = INSULT_SOW
+	male_insult_adj = INSULT_BLOATED
+	female_insult_adj = INSULT_BLOATED
+	male_compliment_adj = COMPL_MAGNIFICENT
+	female_compliment_adj = COMPL_MAGNIFICENT
+
+}
+
+malnourished = {
+	customizer = no
+	random = no
+
+	opposites = {
+		fat
+	}
+
+	fertility = -0.05
+	combat_rating = -10
+
+	ai_zeal = -20
+
+	male_insult = INSULT_WEAKLING
+	female_insult = INSULT_CORPSE
+	male_insult_adj = INSULT_STARVED
+	female_insult_adj = INSULT_STARVED
+	male_compliment_adj = COMPL_FRUGAL
+	female_compliment_adj = COMPL_FRUGAL
+}
+
+peasant_leader = {
+	rebel_inherited = yes
+	customizer = no
+
+	diplomacy = -5
+	combat_rating = 3 # new value!
+
+	vassal_opinion = -10
+	same_opinion = 25
+
+	male_insult = INSULT_PEASANT
+	male_insult_adj = INSULT_LOWBORN
+	female_insult = INSULT_PEASANT_WOMAN
+	female_insult_adj = INSULT_LOWBORN
+}
